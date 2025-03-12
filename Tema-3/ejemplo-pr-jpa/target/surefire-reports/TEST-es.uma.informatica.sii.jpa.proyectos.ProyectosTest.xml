@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="es.uma.informatica.sii.jpa.proyectos.ProyectosTest" time="0.715" tests="1" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="21"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Users\jcalc\Documentos\Carrera\Cuarto\Sistemas-de-Informacion-para-Internet\Tema-3\ejemplo-pr-jpa\target\test-classes;C:\Users\jcalc\Documentos\Carrera\Cuarto\Sistemas-de-Informacion-para-Internet\Tema-3\ejemplo-pr-jpa\target\classes;C:\Users\jcalc\.m2\repository\com\h2database\h2\1.4.200\h2-1.4.200.jar;C:\Users\jcalc\.m2\repository\junit\junit\4.12\junit-4.12.jar;C:\Users\jcalc\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\jcalc\.m2\repository\org\eclipse\persistence\eclipselink\2.7.6\eclipselink-2.7.6.jar;C:\Users\jcalc\.m2\repository\org\eclipse\persistence\jakarta.persistence\2.2.3\jakarta.persistence-2.2.3.jar;C:\Users\jcalc\.m2\repository\org\eclipse\persistence\commonj.sdo\2.1.1\commonj.sdo-2.1.1.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="user.timezone" value="Europe/Madrid"/>
+    <property name="os.name" value="Windows 11"/>
+    <property name="java.vm.specification.version" value="21"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="ES"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\bin"/>
+    <property name="sun.java.command" value="C:\Users\jcalc\AppData\Local\Temp\surefire3778754392123029249\surefirebooter-20250312122453646_3.jar C:\Users\jcalc\AppData\Local\Temp\surefire3778754392123029249 2025-03-12T12-24-53_497-jvmRun1 surefire-20250312122453646_1tmp surefire_0-20250312122453646_2tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\Users\jcalc\Documentos\Carrera\Cuarto\Sistemas-de-Informacion-para-Internet\Tema-3\ejemplo-pr-jpa\target\test-classes;C:\Users\jcalc\Documentos\Carrera\Cuarto\Sistemas-de-Informacion-para-Internet\Tema-3\ejemplo-pr-jpa\target\classes;C:\Users\jcalc\.m2\repository\com\h2database\h2\1.4.200\h2-1.4.200.jar;C:\Users\jcalc\.m2\repository\junit\junit\4.12\junit-4.12.jar;C:\Users\jcalc\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\jcalc\.m2\repository\org\eclipse\persistence\eclipselink\2.7.6\eclipselink-2.7.6.jar;C:\Users\jcalc\.m2\repository\org\eclipse\persistence\jakarta.persistence\2.2.3\jakarta.persistence-2.2.3.jar;C:\Users\jcalc\.m2\repository\org\eclipse\persistence\commonj.sdo\2.1.1\commonj.sdo-2.1.1.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\jcalc"/>
+    <property name="user.language" value="es"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2025-01-21"/>
+    <property name="java.home" value="C:\Program Files\Java"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\Users\jcalc\Documentos\Carrera\Cuarto\Sistemas-de-Informacion-para-Internet\Tema-3\ejemplo-pr-jpa"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\jcalc\AppData\Local\Temp\surefire3778754392123029249\surefirebooter-20250312122453646_3.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="21.0.6+8-LTS-188"/>
+    <property name="user.name" value="jcalc"/>
+    <property name="stdout.encoding" value="Cp1252"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\jcalc\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\jcalc\AppData\Local\Temp\"/>
+    <property name="java.version" value="21.0.6"/>
+    <property name="user.dir" value="C:\Users\jcalc\Documentos\Carrera\Cuarto\Sistemas-de-Informacion-para-Internet\Tema-3\ejemplo-pr-jpa"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="native.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Python313\Scripts\;C:\Python313\;C:\Program Files (x86)\Common Files\Oracle\Java\java8path;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Users\jcalc\jdk-17_windows-x64_bin\jdk-17.0.2\bin;C:\Program Files\Haskell\bin;C:\Program Files\Haskell Platform\8.6.5\lib\extralibs\bin;C:\Program Files\Haskell Platform\8.6.5\bin;C:\Program Files\Haskell Platform\8.6.5\mingw\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\nodejs\;C:\ProgramData\chocolatey\bin;C:\Program Files\apache-maven-3.9.9\bin;C:\Program Files\Git\cmd;C:\Users\jcalc\AppData\Roaming\Python\Python313\Scripts;C:\Users\jcalc\AppData\Local\Programs\Python\Python312\Scripts\;C:\Users\jcalc\AppData\Local\Programs\Python\Python312\;C:\Users\jcalc\AppData\Roaming\cabal\bin;C:\Users\jcalc\AppData\Roaming\local\bin;C:\Users\jcalc\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files\Vim\vim91;C:\Users\jcalc\AppData\Local\Microsoft\WindowsApps;C:\Users\jcalc\AppData\Roaming\npm;C:\Users\jcalc\AppData\Local\Coursier\data\bin;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2024.3.3\bin;;C:\Users\jcalc\AppData\Roaming\Python\Python313\Scripts;;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="stderr.encoding" value="Cp1252"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="21.0.6+8-LTS-188"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="65.0"/>
+  </properties>
+  <testcase name="testNada" classname="es.uma.informatica.sii.jpa.proyectos.ProyectosTest" time="0.661">
+    <system-out><![CDATA[[EL Severe]: metadata: 2025-03-12 12:24:54.317--ServerSession(1430439149)--The java.lang.Object class was compiled with an unsupported JDK. Report this error to the EclipseLink open source project.
+java.lang.IllegalArgumentException: Unsupported class file major version 65
+[EL Severe]: metadata: 2025-03-12 12:24:54.326--ServerSession(1430439149)--The java.lang.Object class was compiled with an unsupported JDK. Report this error to the EclipseLink open source project.
+java.lang.ArrayIndexOutOfBoundsException: Index 8 out of bounds for length 0
+[EL Severe]: metadata: 2025-03-12 12:24:54.333--ServerSession(1430439149)--The java.lang.String class was compiled with an unsupported JDK. Report this error to the EclipseLink open source project.
+java.lang.IllegalArgumentException: Unsupported class file major version 65
+[EL Severe]: metadata: 2025-03-12 12:24:54.333--ServerSession(1430439149)--The java.lang.String class was compiled with an unsupported JDK. Report this error to the EclipseLink open source project.
+java.lang.ArrayIndexOutOfBoundsException: Index 8 out of bounds for length 0
+[EL Severe]: metadata: 2025-03-12 12:24:54.342--ServerSession(1430439149)--The java.sql.Date class was compiled with an unsupported JDK. Report this error to the EclipseLink open source project.
+java.lang.IllegalArgumentException: Unsupported class file major version 65
+[EL Severe]: metadata: 2025-03-12 12:24:54.342--ServerSession(1430439149)--The java.sql.Date class was compiled with an unsupported JDK. Report this error to the EclipseLink open source project.
+java.lang.ArrayIndexOutOfBoundsException: Index 8 out of bounds for length 0
+[EL Severe]: metadata: 2025-03-12 12:24:54.345--ServerSession(1430439149)--The java.lang.Long class was compiled with an unsupported JDK. Report this error to the EclipseLink open source project.
+java.lang.IllegalArgumentException: Unsupported class file major version 65
+[EL Severe]: metadata: 2025-03-12 12:24:54.345--ServerSession(1430439149)--The java.lang.Long class was compiled with an unsupported JDK. Report this error to the EclipseLink open source project.
+java.lang.ArrayIndexOutOfBoundsException: Index 8 out of bounds for length 0
+[EL Severe]: metadata: 2025-03-12 12:24:54.346--ServerSession(1430439149)--The java.lang.Double class was compiled with an unsupported JDK. Report this error to the EclipseLink open source project.
+java.lang.IllegalArgumentException: Unsupported class file major version 65
+[EL Severe]: metadata: 2025-03-12 12:24:54.346--ServerSession(1430439149)--The java.lang.Double class was compiled with an unsupported JDK. Report this error to the EclipseLink open source project.
+java.lang.ArrayIndexOutOfBoundsException: Index 8 out of bounds for length 0
+[EL Severe]: metadata: 2025-03-12 12:24:54.347--ServerSession(1430439149)--The java.util.Date class was compiled with an unsupported JDK. Report this error to the EclipseLink open source project.
+java.lang.IllegalArgumentException: Unsupported class file major version 65
+[EL Severe]: metadata: 2025-03-12 12:24:54.348--ServerSession(1430439149)--The java.util.Date class was compiled with an unsupported JDK. Report this error to the EclipseLink open source project.
+java.lang.ArrayIndexOutOfBoundsException: Index 8 out of bounds for length 0
+[EL Severe]: metadata: 2025-03-12 12:24:54.348--ServerSession(1430439149)--The java.util.Set class was compiled with an unsupported JDK. Report this error to the EclipseLink open source project.
+java.lang.IllegalArgumentException: Unsupported class file major version 65
+[EL Severe]: metadata: 2025-03-12 12:24:54.348--ServerSession(1430439149)--The java.util.Set class was compiled with an unsupported JDK. Report this error to the EclipseLink open source project.
+java.lang.ArrayIndexOutOfBoundsException: Index 8 out of bounds for length 0
+[EL Severe]: metadata: 2025-03-12 12:24:54.351--ServerSession(1430439149)--The java.util.Collection class was compiled with an unsupported JDK. Report this error to the EclipseLink open source project.
+java.lang.IllegalArgumentException: Unsupported class file major version 65
+[EL Severe]: metadata: 2025-03-12 12:24:54.352--ServerSession(1430439149)--The java.util.Collection class was compiled with an unsupported JDK. Report this error to the EclipseLink open source project.
+java.lang.ArrayIndexOutOfBoundsException: Index 8 out of bounds for length 0
+[EL Severe]: metadata: 2025-03-12 12:24:54.352--ServerSession(1430439149)--The java.lang.Iterable class was compiled with an unsupported JDK. Report this error to the EclipseLink open source project.
+java.lang.IllegalArgumentException: Unsupported class file major version 65
+[EL Severe]: metadata: 2025-03-12 12:24:54.353--ServerSession(1430439149)--The java.lang.Iterable class was compiled with an unsupported JDK. Report this error to the EclipseLink open source project.
+java.lang.ArrayIndexOutOfBoundsException: Index 8 out of bounds for length 0
+[EL Severe]: metadata: 2025-03-12 12:24:54.371--ServerSession(1430439149)--The java.lang.Number class was compiled with an unsupported JDK. Report this error to the EclipseLink open source project.
+java.lang.IllegalArgumentException: Unsupported class file major version 65
+[EL Severe]: metadata: 2025-03-12 12:24:54.371--ServerSession(1430439149)--The java.lang.Number class was compiled with an unsupported JDK. Report this error to the EclipseLink open source project.
+java.lang.ArrayIndexOutOfBoundsException: Index 8 out of bounds for length 0
+[EL Info]: 2025-03-12 12:24:54.482--ServerSession(1430439149)--EclipseLink, version: Eclipse Persistence Services - 2.7.6.v20200131-b7c997804f
+[EL Info]: connection: 2025-03-12 12:24:54.678--ServerSession(1430439149)--/file:/C:/Users/jcalc/Documentos/Carrera/Cuarto/Sistemas-de-Informacion-para-Internet/Tema-3/ejemplo-pr-jpa/target/classes/_p2-jpa login successful
+[EL Info]: connection: 2025-03-12 12:24:54.732--ServerSession(1430439149)--/file:/C:/Users/jcalc/Documentos/Carrera/Cuarto/Sistemas-de-Informacion-para-Internet/Tema-3/ejemplo-pr-jpa/target/classes/_p2-jpa logout successful
+]]></system-out>
+  </testcase>
+</testsuite>
