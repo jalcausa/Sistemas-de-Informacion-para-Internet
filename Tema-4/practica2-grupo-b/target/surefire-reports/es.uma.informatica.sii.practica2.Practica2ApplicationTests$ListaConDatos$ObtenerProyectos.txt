@@ -1,0 +1,6 @@
+-------------------------------------------------------------------------------
+Test set: es.uma.informatica.sii.practica2.Practica2ApplicationTests$ListaConDatos$ObtenerProyectos
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 5.399 s - in es.uma.informatica.sii.practica2.Practica2ApplicationTests$ListaConDatos$ObtenerProyectos
+es.uma.informatica.sii.practica2.Practica2ApplicationTests$ListaConDatos$ObtenerProyectos.errorCuandoProyectoNoExiste  Time elapsed: 0.427 s
+es.uma.informatica.sii.practica2.Practica2ApplicationTests$ListaConDatos$ObtenerProyectos.devuelveProyecto  Time elapsed: 0.124 s

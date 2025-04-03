@@ -1,0 +1,10 @@
+-------------------------------------------------------------------------------
+Test set: es.uma.informatica.sii.practica2.Practica2ApplicationTests$ListaVacia$InsertaProyectos
+-------------------------------------------------------------------------------
+Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 2.29 s - in es.uma.informatica.sii.practica2.Practica2ApplicationTests$ListaVacia$InsertaProyectos
+es.uma.informatica.sii.practica2.Practica2ApplicationTests$ListaVacia.devuelveErrorAlConsultarProyecto  Time elapsed: 0.081 s
+es.uma.informatica.sii.practica2.Practica2ApplicationTests$ListaVacia.devuelveLista  Time elapsed: 0.06 s
+es.uma.informatica.sii.practica2.Practica2ApplicationTests$ListaVacia.devuelveErrorAlEliminarProyecto  Time elapsed: 0.08 s
+es.uma.informatica.sii.practica2.Practica2ApplicationTests$ListaVacia.devuelveErrorAlModificarProyecto  Time elapsed: 0.092 s
+es.uma.informatica.sii.practica2.Practica2ApplicationTests$ListaVacia$InsertaProyectos.conID  Time elapsed: 0.081 s
+es.uma.informatica.sii.practica2.Practica2ApplicationTests$ListaVacia$InsertaProyectos.sinID  Time elapsed: 0.089 s

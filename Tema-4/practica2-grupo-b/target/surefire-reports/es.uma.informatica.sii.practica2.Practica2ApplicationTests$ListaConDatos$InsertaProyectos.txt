@@ -1,0 +1,7 @@
+-------------------------------------------------------------------------------
+Test set: es.uma.informatica.sii.practica2.Practica2ApplicationTests$ListaConDatos$InsertaProyectos
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 5.278 s - in es.uma.informatica.sii.practica2.Practica2ApplicationTests$ListaConDatos$InsertaProyectos
+es.uma.informatica.sii.practica2.Practica2ApplicationTests$ListaConDatos$InsertaProyectos.conIDExistente  Time elapsed: 0.119 s
+es.uma.informatica.sii.practica2.Practica2ApplicationTests$ListaConDatos$InsertaProyectos.conIDNoExistente  Time elapsed: 0.19 s
+es.uma.informatica.sii.practica2.Practica2ApplicationTests$ListaConDatos$InsertaProyectos.sinID  Time elapsed: 0.103 s

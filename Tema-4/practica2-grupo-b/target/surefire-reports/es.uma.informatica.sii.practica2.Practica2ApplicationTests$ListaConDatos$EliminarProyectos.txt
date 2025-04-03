@@ -1,0 +1,7 @@
+-------------------------------------------------------------------------------
+Test set: es.uma.informatica.sii.practica2.Practica2ApplicationTests$ListaConDatos$EliminarProyectos
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 6.585 s - in es.uma.informatica.sii.practica2.Practica2ApplicationTests$ListaConDatos$EliminarProyectos
+es.uma.informatica.sii.practica2.Practica2ApplicationTests$ListaConDatos.devuelveLista  Time elapsed: 2.127 s
+es.uma.informatica.sii.practica2.Practica2ApplicationTests$ListaConDatos$EliminarProyectos.eliminaCorrectamente  Time elapsed: 1.11 s
+es.uma.informatica.sii.practica2.Practica2ApplicationTests$ListaConDatos$EliminarProyectos.errorCuandoNoExiste  Time elapsed: 0.154 s
