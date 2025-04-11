@@ -27,8 +27,7 @@ public class LogicaContactos {
 	public List<Contacto> getTodosContactos() {
 		return repo.findAll();
 	}
-	
-	// TODO
+
 	public Contacto insertarContacto(Contacto contacto) {
 		contacto.setId(null); // De esta forma nos aseguramos de que inserta el contacto con un nuevo ID correcto
 		return repo.save(contacto);
