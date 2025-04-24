@@ -1,0 +1,312 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="es.uma.informatica.practica3.Practica3ApplicationTests$BaseDatosVacia" time="5.313" tests="6" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="21"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Users\jcalc\Documentos\Carrera\Cuarto\Sistemas-de-Informacion-para-Internet\Tema-4\Pruebas-JUnit\Ejemplo-practica\codigo-estudiantes\target\test-classes;C:\Users\jcalc\Documentos\Carrera\Cuarto\Sistemas-de-Informacion-para-Internet\Tema-4\Pruebas-JUnit\Ejemplo-practica\codigo-estudiantes\target\classes;C:\Users\jcalc\.m2\repository\org\springframework\boot\spring-boot-starter-data-jpa\3.2.5\spring-boot-starter-data-jpa-3.2.5.jar;C:\Users\jcalc\.m2\repository\org\springframework\boot\spring-boot-starter-aop\3.2.5\spring-boot-starter-aop-3.2.5.jar;C:\Users\jcalc\.m2\repository\org\springframework\spring-aop\6.1.6\spring-aop-6.1.6.jar;C:\Users\jcalc\.m2\repository\org\aspectj\aspectjweaver\1.9.22\aspectjweaver-1.9.22.jar;C:\Users\jcalc\.m2\repository\org\springframework\boot\spring-boot-starter-jdbc\3.2.5\spring-boot-starter-jdbc-3.2.5.jar;C:\Users\jcalc\.m2\repository\com\zaxxer\HikariCP\5.0.1\HikariCP-5.0.1.jar;C:\Users\jcalc\.m2\repository\org\springframework\spring-jdbc\6.1.6\spring-jdbc-6.1.6.jar;C:\Users\jcalc\.m2\repository\org\hibernate\orm\hibernate-core\6.4.4.Final\hibernate-core-6.4.4.Final.jar;C:\Users\jcalc\.m2\repository\jakarta\persistence\jakarta.persistence-api\3.1.0\jakarta.persistence-api-3.1.0.jar;C:\Users\jcalc\.m2\repository\jakarta\transaction\jakarta.transaction-api\2.0.1\jakarta.transaction-api-2.0.1.jar;C:\Users\jcalc\.m2\repository\org\jboss\logging\jboss-logging\3.5.3.Final\jboss-logging-3.5.3.Final.jar;C:\Users\jcalc\.m2\repository\org\hibernate\common\hibernate-commons-annotations\6.0.6.Final\hibernate-commons-annotations-6.0.6.Final.jar;C:\Users\jcalc\.m2\repository\io\smallrye\jandex\3.1.2\jandex-3.1.2.jar;C:\Users\jcalc\.m2\repository\com\fasterxml\classmate\1.6.0\classmate-1.6.0.jar;C:\Users\jcalc\.m2\repository\net\bytebuddy\byte-buddy\1.14.13\byte-buddy-1.14.13.jar;C:\Users\jcalc\.m2\repository\org\glassfish\jaxb\jaxb-runtime\4.0.5\jaxb-runtime-4.0.5.jar;C:\Users\jcalc\.m2\repository\org\glassfish\jaxb\jaxb-core\4.0.5\jaxb-core-4.0.5.jar;C:\Users\jcalc\.m2\repository\org\eclipse\angus\angus-activation\2.0.2\angus-activation-2.0.2.jar;C:\Users\jcalc\.m2\repository\org\glassfish\jaxb\txw2\4.0.5\txw2-4.0.5.jar;C:\Users\jcalc\.m2\repository\com\sun\istack\istack-commons-runtime\4.1.2\istack-commons-runtime-4.1.2.jar;C:\Users\jcalc\.m2\repository\jakarta\inject\jakarta.inject-api\2.0.1\jakarta.inject-api-2.0.1.jar;C:\Users\jcalc\.m2\repository\org\antlr\antlr4-runtime\4.13.0\antlr4-runtime-4.13.0.jar;C:\Users\jcalc\.m2\repository\org\springframework\data\spring-data-jpa\3.2.5\spring-data-jpa-3.2.5.jar;C:\Users\jcalc\.m2\repository\org\springframework\data\spring-data-commons\3.2.5\spring-data-commons-3.2.5.jar;C:\Users\jcalc\.m2\repository\org\springframework\spring-orm\6.1.6\spring-orm-6.1.6.jar;C:\Users\jcalc\.m2\repository\org\springframework\spring-context\6.1.6\spring-context-6.1.6.jar;C:\Users\jcalc\.m2\repository\org\springframework\spring-tx\6.1.6\spring-tx-6.1.6.jar;C:\Users\jcalc\.m2\repository\org\springframework\spring-beans\6.1.6\spring-beans-6.1.6.jar;C:\Users\jcalc\.m2\repository\jakarta\annotation\jakarta.annotation-api\2.1.1\jakarta.annotation-api-2.1.1.jar;C:\Users\jcalc\.m2\repository\org\slf4j\slf4j-api\2.0.13\slf4j-api-2.0.13.jar;C:\Users\jcalc\.m2\repository\org\springframework\spring-aspects\6.1.6\spring-aspects-6.1.6.jar;C:\Users\jcalc\.m2\repository\org\springframework\boot\spring-boot-starter-web\3.2.5\spring-boot-starter-web-3.2.5.jar;C:\Users\jcalc\.m2\repository\org\springframework\boot\spring-boot-starter\3.2.5\spring-boot-starter-3.2.5.jar;C:\Users\jcalc\.m2\repository\org\springframework\boot\spring-boot\3.2.5\spring-boot-3.2.5.jar;C:\Users\jcalc\.m2\repository\org\springframework\boot\spring-boot-autoconfigure\3.2.5\spring-boot-autoconfigure-3.2.5.jar;C:\Users\jcalc\.m2\repository\org\springframework\boot\spring-boot-starter-logging\3.2.5\spring-boot-starter-logging-3.2.5.jar;C:\Users\jcalc\.m2\repository\ch\qos\logback\logback-classic\1.4.14\logback-classic-1.4.14.jar;C:\Users\jcalc\.m2\repository\ch\qos\logback\logback-core\1.4.14\logback-core-1.4.14.jar;C:\Users\jcalc\.m2\repository\org\apache\logging\log4j\log4j-to-slf4j\2.21.1\log4j-to-slf4j-2.21.1.jar;C:\Users\jcalc\.m2\repository\org\apache\logging\log4j\log4j-api\2.21.1\log4j-api-2.21.1.jar;C:\Users\jcalc\.m2\repository\org\slf4j\jul-to-slf4j\2.0.13\jul-to-slf4j-2.0.13.jar;C:\Users\jcalc\.m2\repository\org\yaml\snakeyaml\2.2\snakeyaml-2.2.jar;C:\Users\jcalc\.m2\repository\org\springframework\boot\spring-boot-starter-json\3.2.5\spring-boot-starter-json-3.2.5.jar;C:\Users\jcalc\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.15.4\jackson-databind-2.15.4.jar;C:\Users\jcalc\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.15.4\jackson-annotations-2.15.4.jar;C:\Users\jcalc\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.15.4\jackson-core-2.15.4.jar;C:\Users\jcalc\.m2\repository\com\fasterxml\jackson\datatype\jackson-datatype-jdk8\2.15.4\jackson-datatype-jdk8-2.15.4.jar;C:\Users\jcalc\.m2\repository\com\fasterxml\jackson\datatype\jackson-datatype-jsr310\2.15.4\jackson-datatype-jsr310-2.15.4.jar;C:\Users\jcalc\.m2\repository\com\fasterxml\jackson\module\jackson-module-parameter-names\2.15.4\jackson-module-parameter-names-2.15.4.jar;C:\Users\jcalc\.m2\repository\org\springframework\boot\spring-boot-starter-tomcat\3.2.5\spring-boot-starter-tomcat-3.2.5.jar;C:\Users\jcalc\.m2\repository\org\apache\tomcat\embed\tomcat-embed-core\10.1.20\tomcat-embed-core-10.1.20.jar;C:\Users\jcalc\.m2\repository\org\apache\tomcat\embed\tomcat-embed-el\10.1.20\tomcat-embed-el-10.1.20.jar;C:\Users\jcalc\.m2\repository\org\apache\tomcat\embed\tomcat-embed-websocket\10.1.20\tomcat-embed-websocket-10.1.20.jar;C:\Users\jcalc\.m2\repository\org\springframework\spring-web\6.1.6\spring-web-6.1.6.jar;C:\Users\jcalc\.m2\repository\io\micrometer\micrometer-observation\1.12.5\micrometer-observation-1.12.5.jar;C:\Users\jcalc\.m2\repository\io\micrometer\micrometer-commons\1.12.5\micrometer-commons-1.12.5.jar;C:\Users\jcalc\.m2\repository\org\springframework\spring-webmvc\6.1.6\spring-webmvc-6.1.6.jar;C:\Users\jcalc\.m2\repository\org\springframework\spring-expression\6.1.6\spring-expression-6.1.6.jar;C:\Users\jcalc\.m2\repository\org\projectlombok\lombok\1.18.32\lombok-1.18.32.jar;C:\Users\jcalc\.m2\repository\com\h2database\h2\2.2.224\h2-2.2.224.jar;C:\Users\jcalc\.m2\repository\org\springframework\boot\spring-boot-starter-test\3.2.5\spring-boot-starter-test-3.2.5.jar;C:\Users\jcalc\.m2\repository\org\springframework\boot\spring-boot-test\3.2.5\spring-boot-test-3.2.5.jar;C:\Users\jcalc\.m2\repository\org\springframework\boot\spring-boot-test-autoconfigure\3.2.5\spring-boot-test-autoconfigure-3.2.5.jar;C:\Users\jcalc\.m2\repository\com\jayway\jsonpath\json-path\2.9.0\json-path-2.9.0.jar;C:\Users\jcalc\.m2\repository\jakarta\xml\bind\jakarta.xml.bind-api\4.0.2\jakarta.xml.bind-api-4.0.2.jar;C:\Users\jcalc\.m2\repository\jakarta\activation\jakarta.activation-api\2.1.3\jakarta.activation-api-2.1.3.jar;C:\Users\jcalc\.m2\repository\net\minidev\json-smart\2.5.1\json-smart-2.5.1.jar;C:\Users\jcalc\.m2\repository\net\minidev\accessors-smart\2.5.1\accessors-smart-2.5.1.jar;C:\Users\jcalc\.m2\repository\org\ow2\asm\asm\9.6\asm-9.6.jar;C:\Users\jcalc\.m2\repository\org\assertj\assertj-core\3.24.2\assertj-core-3.24.2.jar;C:\Users\jcalc\.m2\repository\org\awaitility\awaitility\4.2.1\awaitility-4.2.1.jar;C:\Users\jcalc\.m2\repository\org\hamcrest\hamcrest\2.2\hamcrest-2.2.jar;C:\Users\jcalc\.m2\repository\org\junit\jupiter\junit-jupiter\5.10.2\junit-jupiter-5.10.2.jar;C:\Users\jcalc\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.10.2\junit-jupiter-api-5.10.2.jar;C:\Users\jcalc\.m2\repository\org\opentest4j\opentest4j\1.3.0\opentest4j-1.3.0.jar;C:\Users\jcalc\.m2\repository\org\junit\platform\junit-platform-commons\1.10.2\junit-platform-commons-1.10.2.jar;C:\Users\jcalc\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\jcalc\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.10.2\junit-jupiter-params-5.10.2.jar;C:\Users\jcalc\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.10.2\junit-jupiter-engine-5.10.2.jar;C:\Users\jcalc\.m2\repository\org\junit\platform\junit-platform-engine\1.10.2\junit-platform-engine-1.10.2.jar;C:\Users\jcalc\.m2\repository\org\mockito\mockito-core\5.7.0\mockito-core-5.7.0.jar;C:\Users\jcalc\.m2\repository\net\bytebuddy\byte-buddy-agent\1.14.13\byte-buddy-agent-1.14.13.jar;C:\Users\jcalc\.m2\repository\org\objenesis\objenesis\3.3\objenesis-3.3.jar;C:\Users\jcalc\.m2\repository\org\mockito\mockito-junit-jupiter\5.7.0\mockito-junit-jupiter-5.7.0.jar;C:\Users\jcalc\.m2\repository\org\skyscreamer\jsonassert\1.5.1\jsonassert-1.5.1.jar;C:\Users\jcalc\.m2\repository\com\vaadin\external\google\android-json\0.0.20131108.vaadin1\android-json-0.0.20131108.vaadin1.jar;C:\Users\jcalc\.m2\repository\org\springframework\spring-core\6.1.6\spring-core-6.1.6.jar;C:\Users\jcalc\.m2\repository\org\springframework\spring-jcl\6.1.6\spring-jcl-6.1.6.jar;C:\Users\jcalc\.m2\repository\org\springframework\spring-test\6.1.6\spring-test-6.1.6.jar;C:\Users\jcalc\.m2\repository\org\xmlunit\xmlunit-core\2.9.1\xmlunit-core-2.9.1.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="catalina.useNaming" value="false"/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="user.timezone" value="Europe/Madrid"/>
+    <property name="org.jboss.logging.provider" value="slf4j"/>
+    <property name="os.name" value="Windows 11"/>
+    <property name="java.vm.specification.version" value="21"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="ES"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\bin"/>
+    <property name="sun.java.command" value="C:\Users\jcalc\AppData\Local\Temp\surefire12604487603455734472\surefirebooter-20250424103312897_3.jar C:\Users\jcalc\AppData\Local\Temp\surefire12604487603455734472 2025-04-24T10-33-09_413-jvmRun1 surefire-20250424103312897_1tmp surefire_0-20250424103312897_2tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\Users\jcalc\Documentos\Carrera\Cuarto\Sistemas-de-Informacion-para-Internet\Tema-4\Pruebas-JUnit\Ejemplo-practica\codigo-estudiantes\target\test-classes;C:\Users\jcalc\Documentos\Carrera\Cuarto\Sistemas-de-Informacion-para-Internet\Tema-4\Pruebas-JUnit\Ejemplo-practica\codigo-estudiantes\target\classes;C:\Users\jcalc\.m2\repository\org\springframework\boot\spring-boot-starter-data-jpa\3.2.5\spring-boot-starter-data-jpa-3.2.5.jar;C:\Users\jcalc\.m2\repository\org\springframework\boot\spring-boot-starter-aop\3.2.5\spring-boot-starter-aop-3.2.5.jar;C:\Users\jcalc\.m2\repository\org\springframework\spring-aop\6.1.6\spring-aop-6.1.6.jar;C:\Users\jcalc\.m2\repository\org\aspectj\aspectjweaver\1.9.22\aspectjweaver-1.9.22.jar;C:\Users\jcalc\.m2\repository\org\springframework\boot\spring-boot-starter-jdbc\3.2.5\spring-boot-starter-jdbc-3.2.5.jar;C:\Users\jcalc\.m2\repository\com\zaxxer\HikariCP\5.0.1\HikariCP-5.0.1.jar;C:\Users\jcalc\.m2\repository\org\springframework\spring-jdbc\6.1.6\spring-jdbc-6.1.6.jar;C:\Users\jcalc\.m2\repository\org\hibernate\orm\hibernate-core\6.4.4.Final\hibernate-core-6.4.4.Final.jar;C:\Users\jcalc\.m2\repository\jakarta\persistence\jakarta.persistence-api\3.1.0\jakarta.persistence-api-3.1.0.jar;C:\Users\jcalc\.m2\repository\jakarta\transaction\jakarta.transaction-api\2.0.1\jakarta.transaction-api-2.0.1.jar;C:\Users\jcalc\.m2\repository\org\jboss\logging\jboss-logging\3.5.3.Final\jboss-logging-3.5.3.Final.jar;C:\Users\jcalc\.m2\repository\org\hibernate\common\hibernate-commons-annotations\6.0.6.Final\hibernate-commons-annotations-6.0.6.Final.jar;C:\Users\jcalc\.m2\repository\io\smallrye\jandex\3.1.2\jandex-3.1.2.jar;C:\Users\jcalc\.m2\repository\com\fasterxml\classmate\1.6.0\classmate-1.6.0.jar;C:\Users\jcalc\.m2\repository\net\bytebuddy\byte-buddy\1.14.13\byte-buddy-1.14.13.jar;C:\Users\jcalc\.m2\repository\org\glassfish\jaxb\jaxb-runtime\4.0.5\jaxb-runtime-4.0.5.jar;C:\Users\jcalc\.m2\repository\org\glassfish\jaxb\jaxb-core\4.0.5\jaxb-core-4.0.5.jar;C:\Users\jcalc\.m2\repository\org\eclipse\angus\angus-activation\2.0.2\angus-activation-2.0.2.jar;C:\Users\jcalc\.m2\repository\org\glassfish\jaxb\txw2\4.0.5\txw2-4.0.5.jar;C:\Users\jcalc\.m2\repository\com\sun\istack\istack-commons-runtime\4.1.2\istack-commons-runtime-4.1.2.jar;C:\Users\jcalc\.m2\repository\jakarta\inject\jakarta.inject-api\2.0.1\jakarta.inject-api-2.0.1.jar;C:\Users\jcalc\.m2\repository\org\antlr\antlr4-runtime\4.13.0\antlr4-runtime-4.13.0.jar;C:\Users\jcalc\.m2\repository\org\springframework\data\spring-data-jpa\3.2.5\spring-data-jpa-3.2.5.jar;C:\Users\jcalc\.m2\repository\org\springframework\data\spring-data-commons\3.2.5\spring-data-commons-3.2.5.jar;C:\Users\jcalc\.m2\repository\org\springframework\spring-orm\6.1.6\spring-orm-6.1.6.jar;C:\Users\jcalc\.m2\repository\org\springframework\spring-context\6.1.6\spring-context-6.1.6.jar;C:\Users\jcalc\.m2\repository\org\springframework\spring-tx\6.1.6\spring-tx-6.1.6.jar;C:\Users\jcalc\.m2\repository\org\springframework\spring-beans\6.1.6\spring-beans-6.1.6.jar;C:\Users\jcalc\.m2\repository\jakarta\annotation\jakarta.annotation-api\2.1.1\jakarta.annotation-api-2.1.1.jar;C:\Users\jcalc\.m2\repository\org\slf4j\slf4j-api\2.0.13\slf4j-api-2.0.13.jar;C:\Users\jcalc\.m2\repository\org\springframework\spring-aspects\6.1.6\spring-aspects-6.1.6.jar;C:\Users\jcalc\.m2\repository\org\springframework\boot\spring-boot-starter-web\3.2.5\spring-boot-starter-web-3.2.5.jar;C:\Users\jcalc\.m2\repository\org\springframework\boot\spring-boot-starter\3.2.5\spring-boot-starter-3.2.5.jar;C:\Users\jcalc\.m2\repository\org\springframework\boot\spring-boot\3.2.5\spring-boot-3.2.5.jar;C:\Users\jcalc\.m2\repository\org\springframework\boot\spring-boot-autoconfigure\3.2.5\spring-boot-autoconfigure-3.2.5.jar;C:\Users\jcalc\.m2\repository\org\springframework\boot\spring-boot-starter-logging\3.2.5\spring-boot-starter-logging-3.2.5.jar;C:\Users\jcalc\.m2\repository\ch\qos\logback\logback-classic\1.4.14\logback-classic-1.4.14.jar;C:\Users\jcalc\.m2\repository\ch\qos\logback\logback-core\1.4.14\logback-core-1.4.14.jar;C:\Users\jcalc\.m2\repository\org\apache\logging\log4j\log4j-to-slf4j\2.21.1\log4j-to-slf4j-2.21.1.jar;C:\Users\jcalc\.m2\repository\org\apache\logging\log4j\log4j-api\2.21.1\log4j-api-2.21.1.jar;C:\Users\jcalc\.m2\repository\org\slf4j\jul-to-slf4j\2.0.13\jul-to-slf4j-2.0.13.jar;C:\Users\jcalc\.m2\repository\org\yaml\snakeyaml\2.2\snakeyaml-2.2.jar;C:\Users\jcalc\.m2\repository\org\springframework\boot\spring-boot-starter-json\3.2.5\spring-boot-starter-json-3.2.5.jar;C:\Users\jcalc\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.15.4\jackson-databind-2.15.4.jar;C:\Users\jcalc\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.15.4\jackson-annotations-2.15.4.jar;C:\Users\jcalc\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.15.4\jackson-core-2.15.4.jar;C:\Users\jcalc\.m2\repository\com\fasterxml\jackson\datatype\jackson-datatype-jdk8\2.15.4\jackson-datatype-jdk8-2.15.4.jar;C:\Users\jcalc\.m2\repository\com\fasterxml\jackson\datatype\jackson-datatype-jsr310\2.15.4\jackson-datatype-jsr310-2.15.4.jar;C:\Users\jcalc\.m2\repository\com\fasterxml\jackson\module\jackson-module-parameter-names\2.15.4\jackson-module-parameter-names-2.15.4.jar;C:\Users\jcalc\.m2\repository\org\springframework\boot\spring-boot-starter-tomcat\3.2.5\spring-boot-starter-tomcat-3.2.5.jar;C:\Users\jcalc\.m2\repository\org\apache\tomcat\embed\tomcat-embed-core\10.1.20\tomcat-embed-core-10.1.20.jar;C:\Users\jcalc\.m2\repository\org\apache\tomcat\embed\tomcat-embed-el\10.1.20\tomcat-embed-el-10.1.20.jar;C:\Users\jcalc\.m2\repository\org\apache\tomcat\embed\tomcat-embed-websocket\10.1.20\tomcat-embed-websocket-10.1.20.jar;C:\Users\jcalc\.m2\repository\org\springframework\spring-web\6.1.6\spring-web-6.1.6.jar;C:\Users\jcalc\.m2\repository\io\micrometer\micrometer-observation\1.12.5\micrometer-observation-1.12.5.jar;C:\Users\jcalc\.m2\repository\io\micrometer\micrometer-commons\1.12.5\micrometer-commons-1.12.5.jar;C:\Users\jcalc\.m2\repository\org\springframework\spring-webmvc\6.1.6\spring-webmvc-6.1.6.jar;C:\Users\jcalc\.m2\repository\org\springframework\spring-expression\6.1.6\spring-expression-6.1.6.jar;C:\Users\jcalc\.m2\repository\org\projectlombok\lombok\1.18.32\lombok-1.18.32.jar;C:\Users\jcalc\.m2\repository\com\h2database\h2\2.2.224\h2-2.2.224.jar;C:\Users\jcalc\.m2\repository\org\springframework\boot\spring-boot-starter-test\3.2.5\spring-boot-starter-test-3.2.5.jar;C:\Users\jcalc\.m2\repository\org\springframework\boot\spring-boot-test\3.2.5\spring-boot-test-3.2.5.jar;C:\Users\jcalc\.m2\repository\org\springframework\boot\spring-boot-test-autoconfigure\3.2.5\spring-boot-test-autoconfigure-3.2.5.jar;C:\Users\jcalc\.m2\repository\com\jayway\jsonpath\json-path\2.9.0\json-path-2.9.0.jar;C:\Users\jcalc\.m2\repository\jakarta\xml\bind\jakarta.xml.bind-api\4.0.2\jakarta.xml.bind-api-4.0.2.jar;C:\Users\jcalc\.m2\repository\jakarta\activation\jakarta.activation-api\2.1.3\jakarta.activation-api-2.1.3.jar;C:\Users\jcalc\.m2\repository\net\minidev\json-smart\2.5.1\json-smart-2.5.1.jar;C:\Users\jcalc\.m2\repository\net\minidev\accessors-smart\2.5.1\accessors-smart-2.5.1.jar;C:\Users\jcalc\.m2\repository\org\ow2\asm\asm\9.6\asm-9.6.jar;C:\Users\jcalc\.m2\repository\org\assertj\assertj-core\3.24.2\assertj-core-3.24.2.jar;C:\Users\jcalc\.m2\repository\org\awaitility\awaitility\4.2.1\awaitility-4.2.1.jar;C:\Users\jcalc\.m2\repository\org\hamcrest\hamcrest\2.2\hamcrest-2.2.jar;C:\Users\jcalc\.m2\repository\org\junit\jupiter\junit-jupiter\5.10.2\junit-jupiter-5.10.2.jar;C:\Users\jcalc\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.10.2\junit-jupiter-api-5.10.2.jar;C:\Users\jcalc\.m2\repository\org\opentest4j\opentest4j\1.3.0\opentest4j-1.3.0.jar;C:\Users\jcalc\.m2\repository\org\junit\platform\junit-platform-commons\1.10.2\junit-platform-commons-1.10.2.jar;C:\Users\jcalc\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\jcalc\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.10.2\junit-jupiter-params-5.10.2.jar;C:\Users\jcalc\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.10.2\junit-jupiter-engine-5.10.2.jar;C:\Users\jcalc\.m2\repository\org\junit\platform\junit-platform-engine\1.10.2\junit-platform-engine-1.10.2.jar;C:\Users\jcalc\.m2\repository\org\mockito\mockito-core\5.7.0\mockito-core-5.7.0.jar;C:\Users\jcalc\.m2\repository\net\bytebuddy\byte-buddy-agent\1.14.13\byte-buddy-agent-1.14.13.jar;C:\Users\jcalc\.m2\repository\org\objenesis\objenesis\3.3\objenesis-3.3.jar;C:\Users\jcalc\.m2\repository\org\mockito\mockito-junit-jupiter\5.7.0\mockito-junit-jupiter-5.7.0.jar;C:\Users\jcalc\.m2\repository\org\skyscreamer\jsonassert\1.5.1\jsonassert-1.5.1.jar;C:\Users\jcalc\.m2\repository\com\vaadin\external\google\android-json\0.0.20131108.vaadin1\android-json-0.0.20131108.vaadin1.jar;C:\Users\jcalc\.m2\repository\org\springframework\spring-core\6.1.6\spring-core-6.1.6.jar;C:\Users\jcalc\.m2\repository\org\springframework\spring-jcl\6.1.6\spring-jcl-6.1.6.jar;C:\Users\jcalc\.m2\repository\org\springframework\spring-test\6.1.6\spring-test-6.1.6.jar;C:\Users\jcalc\.m2\repository\org\xmlunit\xmlunit-core\2.9.1\xmlunit-core-2.9.1.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\jcalc"/>
+    <property name="user.language" value="es"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2025-01-21"/>
+    <property name="java.home" value="C:\Program Files\Java"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\Users\jcalc\Documentos\Carrera\Cuarto\Sistemas-de-Informacion-para-Internet\Tema-4\Pruebas-JUnit\Ejemplo-practica\codigo-estudiantes"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="FILE_LOG_CHARSET" value="UTF-8"/>
+    <property name="java.awt.headless" value="true"/>
+    <property name="surefire.real.class.path" value="C:\Users\jcalc\AppData\Local\Temp\surefire12604487603455734472\surefirebooter-20250424103312897_3.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="21.0.6+8-LTS-188"/>
+    <property name="user.name" value="jcalc"/>
+    <property name="stdout.encoding" value="Cp1252"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\jcalc\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\jcalc\AppData\Local\Temp\"/>
+    <property name="catalina.home" value="C:\Users\jcalc\AppData\Local\Temp\tomcat.0.4049416505954314165"/>
+    <property name="com.zaxxer.hikari.pool_number" value="23"/>
+    <property name="java.version" value="21.0.6"/>
+    <property name="user.dir" value="C:\Users\jcalc\Documentos\Carrera\Cuarto\Sistemas-de-Informacion-para-Internet\Tema-4\Pruebas-JUnit\Ejemplo-practica\codigo-estudiantes"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="PID" value="7516"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="CONSOLE_LOG_CHARSET" value="UTF-8"/>
+    <property name="catalina.base" value="C:\Users\jcalc\AppData\Local\Temp\tomcat.0.1294903418621835196"/>
+    <property name="native.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\java8path;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Python313\Scripts\;C:\Python313\;C:\Users\jcalc\jdk-17_windows-x64_bin\jdk-17.0.2\bin;C:\Program Files\Haskell\bin;C:\Program Files\Haskell Platform\8.6.5\lib\extralibs\bin;C:\Program Files\Haskell Platform\8.6.5\bin;C:\Program Files\Haskell Platform\8.6.5\mingw\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\nodejs\;C:\ProgramData\chocolatey\bin;C:\Program Files\apache-maven-3.9.9\bin;C:\Program Files\Git\cmd;C:\Users\jcalc\AppData\Roaming\Python\Python313\Scripts;;C:\Program Files\Docker\Docker\resources\bin;C:\Users\jcalc\AppData\Local\Programs\Python\Python312\Scripts\;C:\Users\jcalc\AppData\Local\Programs\Python\Python312\;C:\Users\jcalc\AppData\Roaming\cabal\bin;C:\Users\jcalc\AppData\Roaming\local\bin;C:\Users\jcalc\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files\Vim\vim91;C:\Users\jcalc\AppData\Local\Microsoft\WindowsApps;C:\Users\jcalc\AppData\Roaming\npm;C:\Users\jcalc\AppData\Local\Coursier\data\bin;C:\Users\jcalc\AppData\Roaming\Python\Python313\Scripts;C:\Program Files\JetBrains\IntelliJ IDEA 2024.3.5\bin\;C:\Users\jcalc\AppData\Local\gitkraken\bin;C:\texlive\2025\bin\windows;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="stderr.encoding" value="Cp1252"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="21.0.6+8-LTS-188"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="65.0"/>
+  </properties>
+  <testcase name="insertaIngrediente" classname="es.uma.informatica.practica3.Practica3ApplicationTests$BaseDatosVacia" time="0.067">
+    <system-out><![CDATA[2025-04-24T10:34:35.718+02:00  INFO 7516 --- [           main] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [es.uma.informatica.practica3.Practica3ApplicationTests$BaseDatosVacia]: BaseDatosVacia does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2025-04-24T10:34:35.721+02:00  INFO 7516 --- [           main] .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration es.uma.informatica.practica3.Practica3Application for test class es.uma.informatica.practica3.Practica3ApplicationTests$BaseDatosVacia
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::                (v3.2.5)
+
+2025-04-24T10:34:35.773+02:00  INFO 7516 --- [           main] e.u.i.p.Practica3ApplicationTests        : Starting Practica3ApplicationTests using Java 21.0.6 with PID 7516 (started by jcalc in C:\Users\jcalc\Documentos\Carrera\Cuarto\Sistemas-de-Informacion-para-Internet\Tema-4\Pruebas-JUnit\Ejemplo-practica\codigo-estudiantes)
+2025-04-24T10:34:35.774+02:00  INFO 7516 --- [           main] e.u.i.p.Practica3ApplicationTests        : No active profile set, falling back to 1 default profile: "default"
+2025-04-24T10:34:36.002+02:00  INFO 7516 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-04-24T10:34:36.020+02:00  INFO 7516 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 18 ms. Found 2 JPA repository interfaces.
+2025-04-24T10:34:36.115+02:00  INFO 7516 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 0 (http)
+2025-04-24T10:34:36.116+02:00  INFO 7516 --- [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-04-24T10:34:36.117+02:00  INFO 7516 --- [           main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.20]
+2025-04-24T10:34:36.157+02:00  INFO 7516 --- [           main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-04-24T10:34:36.157+02:00  INFO 7516 --- [           main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 381 ms
+2025-04-24T10:34:36.173+02:00  INFO 7516 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-18 - Starting...
+2025-04-24T10:34:36.177+02:00  INFO 7516 --- [           main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-18 - Added connection conn170: url=jdbc:h2:mem:test user=SA
+2025-04-24T10:34:36.177+02:00  INFO 7516 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-18 - Start completed.
+2025-04-24T10:34:36.178+02:00  INFO 7516 --- [           main] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:test'
+2025-04-24T10:34:36.210+02:00  INFO 7516 --- [           main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-04-24T10:34:36.215+02:00  INFO 7516 --- [           main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-04-24T10:34:36.223+02:00  INFO 7516 --- [           main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-04-24T10:34:36.224+02:00  WARN 7516 --- [           main] org.hibernate.orm.deprecation            : HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-04-24T10:34:36.317+02:00  INFO 7516 --- [           main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-04-24T10:34:36.331+02:00  INFO 7516 --- [           main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-04-24T10:34:36.385+02:00  WARN 7516 --- [           main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-04-24T10:34:36.516+02:00  INFO 7516 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 59797 (http) with context path ''
+2025-04-24T10:34:36.520+02:00  INFO 7516 --- [           main] e.u.i.p.Practica3ApplicationTests        : Started Practica3ApplicationTests in 0.793 seconds (process running for 83.213)
+2025-04-24T10:34:36.536+02:00  INFO 7516 --- [-auto-18-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-04-24T10:34:36.536+02:00  INFO 7516 --- [-auto-18-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-04-24T10:34:36.537+02:00  INFO 7516 --- [-auto-18-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2025-04-24T10:34:36.579+02:00  INFO 7516 --- [           main] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-04-24T10:34:36.583+02:00  INFO 7516 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-18 - Shutdown initiated...
+2025-04-24T10:34:36.585+02:00  INFO 7516 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-18 - Shutdown completed.
+]]></system-out>
+  </testcase>
+  <testcase name="devuelveListaVaciaProductos" classname="es.uma.informatica.practica3.Practica3ApplicationTests$BaseDatosVacia" time="0.062">
+    <system-out><![CDATA[
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::                (v3.2.5)
+
+2025-04-24T10:34:36.623+02:00  INFO 7516 --- [           main] e.u.i.p.Practica3ApplicationTests        : Starting Practica3ApplicationTests using Java 21.0.6 with PID 7516 (started by jcalc in C:\Users\jcalc\Documentos\Carrera\Cuarto\Sistemas-de-Informacion-para-Internet\Tema-4\Pruebas-JUnit\Ejemplo-practica\codigo-estudiantes)
+2025-04-24T10:34:36.624+02:00  INFO 7516 --- [           main] e.u.i.p.Practica3ApplicationTests        : No active profile set, falling back to 1 default profile: "default"
+2025-04-24T10:34:36.829+02:00  INFO 7516 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-04-24T10:34:36.843+02:00  INFO 7516 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 13 ms. Found 2 JPA repository interfaces.
+2025-04-24T10:34:36.915+02:00  INFO 7516 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 0 (http)
+2025-04-24T10:34:36.917+02:00  INFO 7516 --- [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-04-24T10:34:36.917+02:00  INFO 7516 --- [           main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.20]
+2025-04-24T10:34:36.952+02:00  INFO 7516 --- [           main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-04-24T10:34:36.952+02:00  INFO 7516 --- [           main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 325 ms
+2025-04-24T10:34:36.967+02:00  INFO 7516 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-19 - Starting...
+2025-04-24T10:34:36.970+02:00  INFO 7516 --- [           main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-19 - Added connection conn180: url=jdbc:h2:mem:test user=SA
+2025-04-24T10:34:36.970+02:00  INFO 7516 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-19 - Start completed.
+2025-04-24T10:34:36.971+02:00  INFO 7516 --- [           main] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:test'
+2025-04-24T10:34:36.997+02:00  INFO 7516 --- [           main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-04-24T10:34:37.001+02:00  INFO 7516 --- [           main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-04-24T10:34:37.008+02:00  INFO 7516 --- [           main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-04-24T10:34:37.009+02:00  WARN 7516 --- [           main] org.hibernate.orm.deprecation            : HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-04-24T10:34:37.077+02:00  INFO 7516 --- [           main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-04-24T10:34:37.089+02:00  INFO 7516 --- [           main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-04-24T10:34:37.145+02:00  WARN 7516 --- [           main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-04-24T10:34:37.275+02:00  INFO 7516 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 59800 (http) with context path ''
+2025-04-24T10:34:37.279+02:00  INFO 7516 --- [           main] e.u.i.p.Practica3ApplicationTests        : Started Practica3ApplicationTests in 0.684 seconds (process running for 83.972)
+2025-04-24T10:34:37.295+02:00  INFO 7516 --- [-auto-19-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-04-24T10:34:37.295+02:00  INFO 7516 --- [-auto-19-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-04-24T10:34:37.297+02:00  INFO 7516 --- [-auto-19-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2025-04-24T10:34:37.335+02:00  INFO 7516 --- [           main] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-04-24T10:34:37.339+02:00  INFO 7516 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-19 - Shutdown initiated...
+2025-04-24T10:34:37.341+02:00  INFO 7516 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-19 - Shutdown completed.
+]]></system-out>
+  </testcase>
+  <testcase name="devuelveListaVaciaIngredientes" classname="es.uma.informatica.practica3.Practica3ApplicationTests$BaseDatosVacia" time="0.052">
+    <system-out><![CDATA[
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::                (v3.2.5)
+
+2025-04-24T10:34:37.384+02:00  INFO 7516 --- [           main] e.u.i.p.Practica3ApplicationTests        : Starting Practica3ApplicationTests using Java 21.0.6 with PID 7516 (started by jcalc in C:\Users\jcalc\Documentos\Carrera\Cuarto\Sistemas-de-Informacion-para-Internet\Tema-4\Pruebas-JUnit\Ejemplo-practica\codigo-estudiantes)
+2025-04-24T10:34:37.384+02:00  INFO 7516 --- [           main] e.u.i.p.Practica3ApplicationTests        : No active profile set, falling back to 1 default profile: "default"
+2025-04-24T10:34:37.604+02:00  INFO 7516 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-04-24T10:34:37.620+02:00  INFO 7516 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 15 ms. Found 2 JPA repository interfaces.
+2025-04-24T10:34:37.698+02:00  INFO 7516 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 0 (http)
+2025-04-24T10:34:37.699+02:00  INFO 7516 --- [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-04-24T10:34:37.700+02:00  INFO 7516 --- [           main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.20]
+2025-04-24T10:34:37.745+02:00  INFO 7516 --- [           main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-04-24T10:34:37.745+02:00  INFO 7516 --- [           main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 359 ms
+2025-04-24T10:34:37.760+02:00  INFO 7516 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-20 - Starting...
+2025-04-24T10:34:37.764+02:00  INFO 7516 --- [           main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-20 - Added connection conn190: url=jdbc:h2:mem:test user=SA
+2025-04-24T10:34:37.765+02:00  INFO 7516 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-20 - Start completed.
+2025-04-24T10:34:37.765+02:00  INFO 7516 --- [           main] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:test'
+2025-04-24T10:34:37.795+02:00  INFO 7516 --- [           main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-04-24T10:34:37.800+02:00  INFO 7516 --- [           main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-04-24T10:34:37.808+02:00  INFO 7516 --- [           main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-04-24T10:34:37.810+02:00  WARN 7516 --- [           main] org.hibernate.orm.deprecation            : HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-04-24T10:34:37.896+02:00  INFO 7516 --- [           main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-04-24T10:34:37.909+02:00  INFO 7516 --- [           main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-04-24T10:34:37.996+02:00  WARN 7516 --- [           main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-04-24T10:34:38.111+02:00  INFO 7516 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 59803 (http) with context path ''
+2025-04-24T10:34:38.115+02:00  INFO 7516 --- [           main] e.u.i.p.Practica3ApplicationTests        : Started Practica3ApplicationTests in 0.764 seconds (process running for 84.808)
+2025-04-24T10:34:38.129+02:00  INFO 7516 --- [-auto-20-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-04-24T10:34:38.129+02:00  INFO 7516 --- [-auto-20-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-04-24T10:34:38.130+02:00  INFO 7516 --- [-auto-20-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2025-04-24T10:34:38.157+02:00  INFO 7516 --- [           main] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-04-24T10:34:38.162+02:00  INFO 7516 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-20 - Shutdown initiated...
+2025-04-24T10:34:38.164+02:00  INFO 7516 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-20 - Shutdown completed.
+]]></system-out>
+  </testcase>
+  <testcase name="errorInsertarProductoConIngredientesInexistentes" classname="es.uma.informatica.practica3.Practica3ApplicationTests$BaseDatosVacia" time="0.069">
+    <system-out><![CDATA[
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::                (v3.2.5)
+
+2025-04-24T10:34:38.211+02:00  INFO 7516 --- [           main] e.u.i.p.Practica3ApplicationTests        : Starting Practica3ApplicationTests using Java 21.0.6 with PID 7516 (started by jcalc in C:\Users\jcalc\Documentos\Carrera\Cuarto\Sistemas-de-Informacion-para-Internet\Tema-4\Pruebas-JUnit\Ejemplo-practica\codigo-estudiantes)
+2025-04-24T10:34:38.212+02:00  INFO 7516 --- [           main] e.u.i.p.Practica3ApplicationTests        : No active profile set, falling back to 1 default profile: "default"
+2025-04-24T10:34:38.427+02:00  INFO 7516 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-04-24T10:34:38.443+02:00  INFO 7516 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 15 ms. Found 2 JPA repository interfaces.
+2025-04-24T10:34:38.523+02:00  INFO 7516 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 0 (http)
+2025-04-24T10:34:38.524+02:00  INFO 7516 --- [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-04-24T10:34:38.525+02:00  INFO 7516 --- [           main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.20]
+2025-04-24T10:34:38.563+02:00  INFO 7516 --- [           main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-04-24T10:34:38.563+02:00  INFO 7516 --- [           main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 348 ms
+2025-04-24T10:34:38.579+02:00  INFO 7516 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-21 - Starting...
+2025-04-24T10:34:38.582+02:00  INFO 7516 --- [           main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-21 - Added connection conn200: url=jdbc:h2:mem:test user=SA
+2025-04-24T10:34:38.583+02:00  INFO 7516 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-21 - Start completed.
+2025-04-24T10:34:38.583+02:00  INFO 7516 --- [           main] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:test'
+2025-04-24T10:34:38.612+02:00  INFO 7516 --- [           main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-04-24T10:34:38.617+02:00  INFO 7516 --- [           main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-04-24T10:34:38.626+02:00  INFO 7516 --- [           main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-04-24T10:34:38.628+02:00  WARN 7516 --- [           main] org.hibernate.orm.deprecation            : HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-04-24T10:34:38.707+02:00  INFO 7516 --- [           main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-04-24T10:34:38.720+02:00  INFO 7516 --- [           main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-04-24T10:34:38.793+02:00  WARN 7516 --- [           main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-04-24T10:34:38.927+02:00  INFO 7516 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 59806 (http) with context path ''
+2025-04-24T10:34:38.931+02:00  INFO 7516 --- [           main] e.u.i.p.Practica3ApplicationTests        : Started Practica3ApplicationTests in 0.755 seconds (process running for 85.624)
+2025-04-24T10:34:38.947+02:00  INFO 7516 --- [-auto-21-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-04-24T10:34:38.948+02:00  INFO 7516 --- [-auto-21-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-04-24T10:34:38.949+02:00  INFO 7516 --- [-auto-21-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2025-04-24T10:34:38.989+02:00  INFO 7516 --- [           main] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-04-24T10:34:38.995+02:00  INFO 7516 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-21 - Shutdown initiated...
+2025-04-24T10:34:38.997+02:00  INFO 7516 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-21 - Shutdown completed.
+]]></system-out>
+  </testcase>
+  <testcase name="errorConProductoConcreto" classname="es.uma.informatica.practica3.Practica3ApplicationTests$BaseDatosVacia" time="0.085">
+    <system-out><![CDATA[
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::                (v3.2.5)
+
+2025-04-24T10:34:39.055+02:00  INFO 7516 --- [           main] e.u.i.p.Practica3ApplicationTests        : Starting Practica3ApplicationTests using Java 21.0.6 with PID 7516 (started by jcalc in C:\Users\jcalc\Documentos\Carrera\Cuarto\Sistemas-de-Informacion-para-Internet\Tema-4\Pruebas-JUnit\Ejemplo-practica\codigo-estudiantes)
+2025-04-24T10:34:39.055+02:00  INFO 7516 --- [           main] e.u.i.p.Practica3ApplicationTests        : No active profile set, falling back to 1 default profile: "default"
+2025-04-24T10:34:39.307+02:00  INFO 7516 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-04-24T10:34:39.326+02:00  INFO 7516 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 17 ms. Found 2 JPA repository interfaces.
+2025-04-24T10:34:39.420+02:00  INFO 7516 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 0 (http)
+2025-04-24T10:34:39.423+02:00  INFO 7516 --- [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-04-24T10:34:39.423+02:00  INFO 7516 --- [           main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.20]
+2025-04-24T10:34:39.477+02:00  INFO 7516 --- [           main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-04-24T10:34:39.477+02:00  INFO 7516 --- [           main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 419 ms
+2025-04-24T10:34:39.496+02:00  INFO 7516 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-22 - Starting...
+2025-04-24T10:34:39.500+02:00  INFO 7516 --- [           main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-22 - Added connection conn210: url=jdbc:h2:mem:test user=SA
+2025-04-24T10:34:39.500+02:00  INFO 7516 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-22 - Start completed.
+2025-04-24T10:34:39.501+02:00  INFO 7516 --- [           main] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:test'
+2025-04-24T10:34:39.541+02:00  INFO 7516 --- [           main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-04-24T10:34:39.547+02:00  INFO 7516 --- [           main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-04-24T10:34:39.557+02:00  INFO 7516 --- [           main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-04-24T10:34:39.560+02:00  WARN 7516 --- [           main] org.hibernate.orm.deprecation            : HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-04-24T10:34:39.767+02:00  INFO 7516 --- [           main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-04-24T10:34:39.799+02:00  INFO 7516 --- [           main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-04-24T10:34:39.887+02:00  WARN 7516 --- [           main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-04-24T10:34:40.065+02:00  INFO 7516 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 59809 (http) with context path ''
+2025-04-24T10:34:40.071+02:00  INFO 7516 --- [           main] e.u.i.p.Practica3ApplicationTests        : Started Practica3ApplicationTests in 1.061 seconds (process running for 86.763)
+2025-04-24T10:34:40.112+02:00  INFO 7516 --- [-auto-22-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-04-24T10:34:40.112+02:00  INFO 7516 --- [-auto-22-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-04-24T10:34:40.114+02:00  INFO 7516 --- [-auto-22-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2025-04-24T10:34:40.145+02:00  INFO 7516 --- [           main] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-04-24T10:34:40.152+02:00  INFO 7516 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-22 - Shutdown initiated...
+2025-04-24T10:34:40.155+02:00  INFO 7516 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-22 - Shutdown completed.
+]]></system-out>
+  </testcase>
+  <testcase name="errorConIngredienteConcreto" classname="es.uma.informatica.practica3.Practica3ApplicationTests$BaseDatosVacia" time="0.058">
+    <system-out><![CDATA[
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::                (v3.2.5)
+
+2025-04-24T10:34:40.209+02:00  INFO 7516 --- [           main] e.u.i.p.Practica3ApplicationTests        : Starting Practica3ApplicationTests using Java 21.0.6 with PID 7516 (started by jcalc in C:\Users\jcalc\Documentos\Carrera\Cuarto\Sistemas-de-Informacion-para-Internet\Tema-4\Pruebas-JUnit\Ejemplo-practica\codigo-estudiantes)
+2025-04-24T10:34:40.209+02:00  INFO 7516 --- [           main] e.u.i.p.Practica3ApplicationTests        : No active profile set, falling back to 1 default profile: "default"
+2025-04-24T10:34:40.431+02:00  INFO 7516 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-04-24T10:34:40.448+02:00  INFO 7516 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 16 ms. Found 2 JPA repository interfaces.
+2025-04-24T10:34:40.529+02:00  INFO 7516 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 0 (http)
+2025-04-24T10:34:40.530+02:00  INFO 7516 --- [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-04-24T10:34:40.531+02:00  INFO 7516 --- [           main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.20]
+2025-04-24T10:34:40.570+02:00  INFO 7516 --- [           main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-04-24T10:34:40.570+02:00  INFO 7516 --- [           main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 358 ms
+2025-04-24T10:34:40.586+02:00  INFO 7516 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-23 - Starting...
+2025-04-24T10:34:40.590+02:00  INFO 7516 --- [           main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-23 - Added connection conn220: url=jdbc:h2:mem:test user=SA
+2025-04-24T10:34:40.590+02:00  INFO 7516 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-23 - Start completed.
+2025-04-24T10:34:40.590+02:00  INFO 7516 --- [           main] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:test'
+2025-04-24T10:34:40.623+02:00  INFO 7516 --- [           main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-04-24T10:34:40.628+02:00  INFO 7516 --- [           main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-04-24T10:34:40.637+02:00  INFO 7516 --- [           main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-04-24T10:34:40.639+02:00  WARN 7516 --- [           main] org.hibernate.orm.deprecation            : HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-04-24T10:34:40.718+02:00  INFO 7516 --- [           main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-04-24T10:34:40.732+02:00  INFO 7516 --- [           main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-04-24T10:34:40.800+02:00  WARN 7516 --- [           main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-04-24T10:34:40.961+02:00  INFO 7516 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 59812 (http) with context path ''
+2025-04-24T10:34:40.965+02:00  INFO 7516 --- [           main] e.u.i.p.Practica3ApplicationTests        : Started Practica3ApplicationTests in 0.798 seconds (process running for 87.658)
+2025-04-24T10:34:40.984+02:00  INFO 7516 --- [-auto-23-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-04-24T10:34:40.984+02:00  INFO 7516 --- [-auto-23-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-04-24T10:34:40.985+02:00  INFO 7516 --- [-auto-23-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2025-04-24T10:34:41.017+02:00  INFO 7516 --- [           main] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-04-24T10:34:41.020+02:00  INFO 7516 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-23 - Shutdown initiated...
+2025-04-24T10:34:41.022+02:00  INFO 7516 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-23 - Shutdown completed.
+]]></system-out>
+  </testcase>
+</testsuite>

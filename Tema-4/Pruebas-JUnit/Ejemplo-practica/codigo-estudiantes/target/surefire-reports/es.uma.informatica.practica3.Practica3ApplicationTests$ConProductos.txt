@@ -1,0 +1,12 @@
+-------------------------------------------------------------------------------
+Test set: es.uma.informatica.practica3.Practica3ApplicationTests$ConProductos
+-------------------------------------------------------------------------------
+Tests run: 8, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 54.69 s - in es.uma.informatica.practica3.Practica3ApplicationTests$ConProductos
+es.uma.informatica.practica3.Practica3ApplicationTests$ConProductos.obtieneProductoPorId  Time elapsed: 3.348 s
+es.uma.informatica.practica3.Practica3ApplicationTests$ConProductos.actualizaProductoConMezclaDeIngredientes  Time elapsed: 1.576 s
+es.uma.informatica.practica3.Practica3ApplicationTests$ConProductos.actualizaProducto  Time elapsed: 0.19 s
+es.uma.informatica.practica3.Practica3ApplicationTests$ConProductos.eliminaProducto  Time elapsed: 0.211 s
+es.uma.informatica.practica3.Practica3ApplicationTests$ConProductos.errorInsertarProductoConNombreRepetido  Time elapsed: 0.163 s
+es.uma.informatica.practica3.Practica3ApplicationTests$ConProductos.errorEliminarProductoInexistente  Time elapsed: 0.097 s
+es.uma.informatica.practica3.Practica3ApplicationTests$ConProductos.errorActualizarProductoInexistente  Time elapsed: 0.124 s
+es.uma.informatica.practica3.Practica3ApplicationTests$ConProductos.obtieneTodosLosProductos  Time elapsed: 0.226 s

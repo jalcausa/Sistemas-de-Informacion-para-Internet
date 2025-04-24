@@ -1,0 +1,10 @@
+C:\Users\jcalc\Documentos\Carrera\Cuarto\Sistemas-de-Informacion-para-Internet\Tema-4\lista-compra-rest\src\main\java\es\uma\informatica\sii\helloworld\controllers\ListaCompraController.java
+C:\Users\jcalc\Documentos\Carrera\Cuarto\Sistemas-de-Informacion-para-Internet\Tema-4\lista-compra-rest\src\main\java\es\uma\informatica\sii\helloworld\entities\Item.java
+C:\Users\jcalc\Documentos\Carrera\Cuarto\Sistemas-de-Informacion-para-Internet\Tema-4\lista-compra-rest\src\main\java\es\uma\informatica\sii\helloworld\ListaCompraApplication.java
+C:\Users\jcalc\Documentos\Carrera\Cuarto\Sistemas-de-Informacion-para-Internet\Tema-4\lista-compra-rest\src\main\java\es\uma\informatica\sii\helloworld\dto\ItemDTO.java
+C:\Users\jcalc\Documentos\Carrera\Cuarto\Sistemas-de-Informacion-para-Internet\Tema-4\lista-compra-rest\src\main\java\es\uma\informatica\sii\helloworld\repositories\ItemRepository.java
+C:\Users\jcalc\Documentos\Carrera\Cuarto\Sistemas-de-Informacion-para-Internet\Tema-4\lista-compra-rest\src\main\java\es\uma\informatica\sii\helloworld\entities\ListaCompra.java
+C:\Users\jcalc\Documentos\Carrera\Cuarto\Sistemas-de-Informacion-para-Internet\Tema-4\lista-compra-rest\src\main\java\es\uma\informatica\sii\helloworld\service\NoEncontradoException.java
+C:\Users\jcalc\Documentos\Carrera\Cuarto\Sistemas-de-Informacion-para-Internet\Tema-4\lista-compra-rest\src\main\java\es\uma\informatica\sii\helloworld\repositories\ListaCompraRepository.java
+C:\Users\jcalc\Documentos\Carrera\Cuarto\Sistemas-de-Informacion-para-Internet\Tema-4\lista-compra-rest\src\main\java\es\uma\informatica\sii\helloworld\dto\ListaCompraDTO.java
+C:\Users\jcalc\Documentos\Carrera\Cuarto\Sistemas-de-Informacion-para-Internet\Tema-4\lista-compra-rest\src\main\java\es\uma\informatica\sii\helloworld\service\ListaCompraDBService.java

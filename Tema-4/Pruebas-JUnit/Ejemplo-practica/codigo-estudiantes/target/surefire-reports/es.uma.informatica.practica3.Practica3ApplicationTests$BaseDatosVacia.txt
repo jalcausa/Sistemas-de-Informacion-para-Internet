@@ -1,0 +1,10 @@
+-------------------------------------------------------------------------------
+Test set: es.uma.informatica.practica3.Practica3ApplicationTests$BaseDatosVacia
+-------------------------------------------------------------------------------
+Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 5.313 s - in es.uma.informatica.practica3.Practica3ApplicationTests$BaseDatosVacia
+es.uma.informatica.practica3.Practica3ApplicationTests$BaseDatosVacia.insertaIngrediente  Time elapsed: 0.067 s
+es.uma.informatica.practica3.Practica3ApplicationTests$BaseDatosVacia.devuelveListaVaciaProductos  Time elapsed: 0.062 s
+es.uma.informatica.practica3.Practica3ApplicationTests$BaseDatosVacia.devuelveListaVaciaIngredientes  Time elapsed: 0.052 s
+es.uma.informatica.practica3.Practica3ApplicationTests$BaseDatosVacia.errorInsertarProductoConIngredientesInexistentes  Time elapsed: 0.069 s
+es.uma.informatica.practica3.Practica3ApplicationTests$BaseDatosVacia.errorConProductoConcreto  Time elapsed: 0.085 s
+es.uma.informatica.practica3.Practica3ApplicationTests$BaseDatosVacia.errorConIngredienteConcreto  Time elapsed: 0.058 s
