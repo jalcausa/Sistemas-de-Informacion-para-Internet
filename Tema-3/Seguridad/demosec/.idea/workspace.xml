@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="3313753d-b694-4971-ab9e-6dcdc0d9b742" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../../ejemplo-2/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ejemplo-2/.idea/codeStyles/Project.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ejemplo-2/.idea/codeStyles/codeStyleConfig.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ejemplo-2/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ejemplo-2/.idea/dbnavigator.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ejemplo-2/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ejemplo-2/.idea/jarRepositories.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ejemplo-2/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ejemplo-2/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ejemplo-2/esquema.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ejemplo-2/nuevo-esquema.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ejemplo-2/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ejemplo-2/src/main/java/es/uma/informatica/sii/practica/jpa/AccesoDatos.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ejemplo-2/src/main/java/es/uma/informatica/sii/practica/jpa/Campo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ejemplo-2/src/main/java/es/uma/informatica/sii/practica/jpa/Formulario.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ejemplo-2/src/main/java/es/uma/informatica/sii/practica/jpa/Tipo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ejemplo-2/src/main/resources/META-INF/persistence.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ejemplo-2/src/test/java/es/uma/informatica/sii/practica/jpa/MainTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ejemplo-3/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ejemplo-3/.idea/codeStyles/Project.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ejemplo-3/.idea/codeStyles/codeStyleConfig.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ejemplo-3/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ejemplo-3/.idea/dbnavigator.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ejemplo-3/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ejemplo-3/.idea/jarRepositories.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ejemplo-3/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ejemplo-3/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ejemplo-3/esquema.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ejemplo-3/nuevo-esquema.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ejemplo-3/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ejemplo-3/src/main/java/es/uma/informatica/sii/practica/jpa/AccesoDatos.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ejemplo-3/src/main/java/es/uma/informatica/sii/practica/jpa/Plaza.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ejemplo-3/src/main/java/es/uma/informatica/sii/practica/jpa/Tipo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ejemplo-3/src/main/java/es/uma/informatica/sii/practica/jpa/Vuelo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ejemplo-3/src/main/resources/META-INF/persistence.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ejemplo-3/src/test/java/es/uma/informatica/sii/practica/jpa/MainTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ejemplo-pr-jpa/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ejemplo-pr-jpa/.idea/codeStyles/Project.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ejemplo-pr-jpa/.idea/codeStyles/codeStyleConfig.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ejemplo-pr-jpa/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ejemplo-pr-jpa/.idea/dbnavigator.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ejemplo-pr-jpa/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ejemplo-pr-jpa/.idea/jarRepositories.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ejemplo-pr-jpa/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ejemplo-pr-jpa/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ejemplo-pr-jpa/esquema.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ejemplo-pr-jpa/nuevo-esquema.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ejemplo-pr-jpa/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ejemplo-pr-jpa/src/main/java/es/uma/informatica/sii/jpa/proyectos/AccesoDatos.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ejemplo-pr-jpa/src/main/java/es/uma/informatica/sii/jpa/proyectos/Proyecto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ejemplo-pr-jpa/src/main/java/es/uma/informatica/sii/jpa/proyectos/Tarea.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ejemplo-pr-jpa/src/main/resources/META-INF/persistence.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ejemplo-pr-jpa/src/test/java/es/uma/informatica/sii/jpa/proyectos/ProyectosTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../jpa-demo/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-jpa-demo" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Tema-4/Servicios-rest/practica-2/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Tema-4/Servicios-rest/practica-2/.idea/vcs.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+  </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="2" />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 0
+}]]></component>
+  <component name="ProjectId" id="2wC25kPprfpmdbFqxg29Lkn1GQC" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/Users/jcalcausal/Documents/Carrera/Cuarto/Sistemas-de-Informacion-para-Internet/Tema-3/Seguridad/demosec",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RunManager">
+    <configuration name="DemosecApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="demosec" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="es.uma.informatica.sii.demosec.DemosecApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9823dce3aa75-a94e463ab2e7-intellij.indexing.shared.core-IU-243.26053.27" />
+        <option value="bundled-js-predefined-d6986cc7102b-1632447f56bf-JavaScript-IU-243.26053.27" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="3313753d-b694-4971-ab9e-6dcdc0d9b742" name="Changes" comment="" />
+      <created>1745531053646</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1745531053646</updated>
+      <workItem from="1745531055131" duration="629000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

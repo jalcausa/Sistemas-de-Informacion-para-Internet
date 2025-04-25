@@ -4,36 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ac88f3d3-e3b8-42a6-910c-4089f9481b87" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dbnavigator.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/esquema.ddl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/es/uma/informatica/jpa/demo/Address.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/es/uma/informatica/jpa/demo/Artist.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/es/uma/informatica/jpa/demo/Book.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/es/uma/informatica/jpa/demo/CD.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/es/uma/informatica/jpa/demo/Customer.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/es/uma/informatica/jpa/demo/Item.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/es/uma/informatica/jpa/demo/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/persistence.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/es/uma/informatica/jpa/demo/Address.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/es/uma/informatica/jpa/demo/Artist.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/es/uma/informatica/jpa/demo/Book.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/es/uma/informatica/jpa/demo/CD.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/es/uma/informatica/jpa/demo/Customer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/es/uma/informatica/jpa/demo/Item.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/es/uma/informatica/jpa/demo/Main.class" beforeDir="false" />
-    </list>
+    <list default="true" id="ac88f3d3-e3b8-42a6-910c-4089f9481b87" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -47,7 +18,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
   </component>
   <component name="ProjectCodeStyleSettingsMigration">
     <option name="version" value="2" />
@@ -71,7 +42,9 @@
     "git-widget-placeholder": "main",
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/jcalc/Documentos/Carrera/Cuarto/Sistemas-de-Informacion-para-Internet/jpa-modelado"
+    "last_opened_file_path": "/Users/jcalcausal/Documents/Carrera/Cuarto/Sistemas-de-Informacion-para-Internet/Tema-3/jpa-demo",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
   <component name="RunManager">
@@ -105,6 +78,14 @@
       </list>
     </recent_temporary>
   </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9823dce3aa75-a94e463ab2e7-intellij.indexing.shared.core-IU-243.26053.27" />
+        <option value="bundled-js-predefined-d6986cc7102b-1632447f56bf-JavaScript-IU-243.26053.27" />
+      </set>
+    </attachedChunks>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -113,7 +94,11 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1741265961302</updated>
+      <workItem from="1745356933714" duration="5000" />
     </task>
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
   </component>
 </project>
