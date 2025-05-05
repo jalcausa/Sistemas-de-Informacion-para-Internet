@@ -1,0 +1,44 @@
+# This file is a copy of the exaple provided in the 
+# documentation of the official Wordpress docker image (https://hub.docker.com/_/wordpress?tab=description)
+version: '3.1'
+
+services:
+  backend:
+    image: localhost:5000/backend
+    build: ./back
+    restart: always
+    ports:
+      - 8080:8080
+    environment:
+      SPRING_DATASOURCE_URL: "jdbc:mysql://db:3306/exampledb"
+      SPRING_DATASOURCE_DRIVERCLASSNAME: com.mysql.cj.jdbc.Driver
+      SPRING_DATASOURCE_USERNAME: exampleuser
+      SPRING_DATASOURCE_PASSWORD: examplepass
+      SPRING_JPA_GENERATE_DDL: "true"
+      SPRING_H2_CONSOLE_ENABLED: "false"
+      SPRING_JPA_DATABASE_PLATFORM: org.hibernate.dialect.MySQLDialect
+
+  db:
+    image: mysql:5.7
+    restart: always
+    environment:
+      MYSQL_DATABASE: exampledb
+      MYSQL_USER: exampleuser
+      MYSQL_PASSWORD: examplepass
+      MYSQL_RANDOM_ROOT_PASSWORD: '1'
+    volumes:
+      - db:/var/lib/mysql
+    healthcheck:
+      test: "/usr/bin/mysql --user=exampleuser --password=examplepass --execute \"SHOW DATABASES;\""
+      interval: 5s
+      timeout: 2s
+      retries: 60
+
+  frontend:
+    image: localhost:5000/frontend
+    build: ./front
+    ports:
+      - 4200:80
+    
+volumes:
+  db:
