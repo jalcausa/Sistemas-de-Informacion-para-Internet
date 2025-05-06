@@ -310,7 +310,7 @@ Este ejemplo ilustra una aplicación completa, en la que:
 
 ---
 
-## 5. Otros Conceptos Avanzados (Mención Breve)
+## 5. Otros Conceptos Avanzados
 
 ### 5.1 Docker Swarm
 Docker Swarm es una herramienta para orquestar contenedores en múltiples nodos (máquinas).  
@@ -328,7 +328,7 @@ El proceso para "dockerizar" una aplicación generalmente sigue estos pasos:
 
 ---
 
-## Conclusión
+## Resumen
 
 Docker permite crear ambientes de ejecución portátiles y consistentes, facilitando el desarrollo, despliegue y escalamiento de aplicaciones. Tanto los Dockerfile como Docker Compose son herramientas esenciales:
 - El **Dockerfile** se utiliza para definir y construir imágenes personalizadas.
