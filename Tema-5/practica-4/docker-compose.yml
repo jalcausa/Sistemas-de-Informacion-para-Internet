@@ -1,0 +1,36 @@
+services:
+  backend:
+    build: ./back
+    depends_on:
+      db:
+        condition: service_healthy
+    restart: always
+    ports:
+      - 8080:8080
+    environment:
+      SPRING_DATASOURCE_URL: "jdbc:mysql://db:3306/cldb"
+      SPRING_DATASOURCE_DRIVERCLASSNAME: com.mysql.cj.jdbc.Driver
+      SPRING_DATASOURCE_USERNAME: cliente
+      SPRING_DATASOURCE_PASSWORD: clpd
+      SPRING_JPA_GENERATE_DDL: "true"
+      SPRING_H2_CONSOLE_ENABLED: "false"
+      SPRING_JPA_DATABASE_PLATFORM: org.hibernate.dialect.MySQLDialect
+
+  db:
+    image: mysql:8.4.0
+    restart: always
+    environment:
+      MYSQL_DATABASE: cldb
+      MYSQL_USER: cliente
+      MYSQL_PASSWORD: clpd
+      MYSQL_RANDOM_ROOT_PASSWORD: '1'
+    volumes:
+      - datos:/var/lib/mysql
+    healthcheck:
+      test: "/usr/bin/mysql --user=cliente --password=clpd --execute \"SHOW DATABASES;\""
+      interval: 5s
+      timeout: 2s
+      retries: 60
+
+volumes:
+  datos:
