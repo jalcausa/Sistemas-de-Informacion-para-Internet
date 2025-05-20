@@ -1,0 +1,47 @@
+body {
+    font-family: Tahoma, Verdana, sans-serif;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f5f5f5;
+}
+
+h1 {
+    color: #3498db;
+    text-align: center;
+}
+
+.lista-proyectos {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.proyecto {
+	background-color: white;
+	padding: 20px;
+}
+
+.proyecto h2 {
+	color: #3498db;
+	margin-top: 0;
+}
+
+.proyecto-info {
+	display: flex;
+	justify-content: space-between;
+}
+
+.duracion {
+	color: #3498db;
+	background-color: #e8f4fc;
+}
+
+.descripcion {
+	color: #7f8c8d
+}
+
+.tecnologias {
+	color: #7f8c8d;
+	font-size: 0.8em;
+}
