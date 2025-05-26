@@ -172,7 +172,7 @@ public class Practica2ApplicationTests {
 			var respuesta = restTemplate.exchange(peticion,
 					new ParameterizedTypeReference<List<Contacto>>() {});
 			
-			assertThat(respuesta.getStatusCode().value()).isEqualTo(404);
+				assertThat(respuesta.getStatusCode().value()).isEqualTo(404);
 			assertThat(respuesta.hasBody()).isEqualTo(false);	
 		}
 		
