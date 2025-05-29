@@ -11,7 +11,7 @@ import { FormularioContactoComponent } from './formulario-contacto/formulario-co
   declarations: [
     AppComponent,
     DetalleContactoComponent,
-    FormularioContactoComponent
+    FormularioContactoComponent,
   ],
   imports: [
     BrowserModule,
