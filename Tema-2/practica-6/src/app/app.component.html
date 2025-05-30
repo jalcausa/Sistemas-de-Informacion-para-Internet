@@ -1,0 +1,21 @@
+<div class="container">
+  <div class="row">
+    <div class="col-md-6">
+      <h1>Lista de contactos</h1>
+      <div class="list-group">
+        <button *ngFor="let contacto of contactos"
+          class="list-group-item list-group-item-action"
+          (click)="elegirContacto(contacto)"
+          [class.active]="contacto === contactoElegido">{{contacto.nombre}}</button>
+      </div>
+      <br>
+      <button type="button" class="btn btn-outline-success bi bi-plus-lg" (click)="aniadirContacto()"></button>
+    </div>
+    <div class="col-md-6" *ngIf="contactoElegido">
+      <app-detalle-contactos [contacto]="contactoElegido"
+        (contactoEditado)="contactoEditado($event)"
+        (contactoEliminado)="eliminarContacto($event)"
+        ></app-detalle-contactos>
+    </div>
+  </div>
+</div>

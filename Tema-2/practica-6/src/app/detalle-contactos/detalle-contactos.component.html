@@ -1,0 +1,33 @@
+<div class="container">
+  <div class="row">
+    <h2 >Detalles de {{contacto?.nombre}}</h2>
+  </div>
+
+<div class="row" id="nombre">
+  <label class="col-md-3" for="nombre">Nombre:</label>
+  <span class="col-md-9 offset-2 offset-md-0">{{contacto?.nombre}}</span>
+</div>
+<div class="row" id="apellidos">
+  <label class="col-md-3" for="apellido">Apellidos:</label>
+  <span class="col-md-9 offset-2 offset-md-0">{{contacto?.apellidos}}</span>
+</div>
+<div class="row" id="email">
+  <label class="col-md-3" for="email">E-mail:</label>
+  <span class="col-md-9 offset-2 offset-md-0">{{contacto?.email}}</span>
+</div>
+<div class="row" id="telefono">
+  <label class="col-md-3" for="telefono">Teléfono:</label>
+  <span class="col-md-9 offset-2 offset-md-0">{{contacto?.telefono}}</span>
+</div>
+<div class="row" id="genero">
+	<label class="col-md-3" for="genero">Género:</label>
+	<span class="col-md-9 offset-2 offset-md-0">{{contacto?.genero}}</span>
+</div>
+
+<div class="row">
+  <button class="col-auto btn btn-outline-danger" (click)="eliminarContacto()">Eliminar <i class="bi bi-trash-fill"></i></button>
+  <div class="col-1"></div>
+  <button class="col-auto btn btn-outline-primary" (click)="editarContacto()">Editar <i class="bi bi-pencil-fill"></i></button>
+</div>
+
+</div>
