@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Testing de JS</title>
+    <style>
+        .fondoAmarillo { background: yellow; }
+        #elemento { padding: 10px; margin: 5px; border: 1px solid #ccc; }
+    </style>
+</head>
+<meta charset="UTF-8">
+<body>
+    <a href="www.google.es" onclick="alert('Pulsaste!');">Pulsa aquí para mostrar una mensaje desde JS</a>
+
+    <hr>
+
+    <!-- Test 1: innerHTML -->
+    <div id="contenido">Este es el contenido inicial</div>
+    <button onclick="document.getElementById('contenido').innerHTML = 'Nuevo contenido generado <b>desde JS :)</b>'">
+        Cambiar innerHTML del HTML anterior
+    </button>
+
+    <hr>
+    
+    <!-- Test 2: outerHTML -->
+    <div id="elemento1">Esto será reemplazado.</div>
+    <button onclick="document.getElementById('elemento1').outerHTML = '<p style=color:red>Reemplazado :)</p>'">
+        Reemplazar HTML
+    </button>
+
+    <hr>
+
+    <!-- Test 3: Display none -->
+    <div id="elemento2">Este elemento desaparecerá</div>
+    <button onclick="document.getElementById('elemento2').style.display = 'none'">
+        Ocultar elemento anterior
+    </button>
+    <button onclick="document.getElementById('elemento2').style.display = 'block'">
+        Mostrar elemento anterior oculto
+    </button><br><br>
+    
+    <!-- Test 4: ClassList -->
+    <div id="elemento3">Pulsa para aplicar clase</div>
+    <button onclick="document.getElementById('elemento3').classList.add('fondoAmarillo')">
+        Aplicar clase
+    </button>
+    <button onclick="document.getElementById('elemento3').classList.remove('fondoAmarillo')">
+        Quitar clase
+    </button>
+</body>
+</html>

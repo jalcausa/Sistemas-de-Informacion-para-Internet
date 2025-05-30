@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Display: inline vs block vs inline-block</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            padding: 20px;
+            background-color: #f5f5f5;
+        }
+
+        .container {
+            background-color: white;
+            padding: 20px;
+            margin-bottom: 30px;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+
+        h2 {
+            color: #333;
+            border-bottom: 2px solid #ddd;
+            padding-bottom: 8px;
+        }
+
+        /* Estilos base para todos los elementos */
+        .elemento {
+            background-color: #4ecdc4;
+            color: white;
+            padding: 10px 15px;
+            margin: 5px;
+            border: 2px solid #333;
+            font-weight: bold;
+        }
+
+        /* DISPLAY: INLINE */
+        .inline {
+            display: inline;
+            /* NO respeta width/height */
+            width: 200px;   /* ← IGNORADO */
+            height: 80px;   /* ← IGNORADO */
+        }
+
+        /* DISPLAY: BLOCK */
+        .block {
+            display: block;
+            width: 200px;   /* ← SÍ funciona */
+            height: 80px;   /* ← SÍ funciona */
+        }
+
+        /* DISPLAY: INLINE-BLOCK */
+        .inline-block {
+            display: inline-block;
+            width: 200px;   /* ← SÍ funciona */
+            height: 80px;   /* ← SÍ funciona */
+        }
+
+        /* Para mostrar el contenedor padre */
+        .contenedor-demo {
+            border: 3px dashed #ff6b6b;
+            padding: 15px;
+            background-color: #ffe6e6;
+        }
+
+        .texto-normal {
+            color: #333;
+            margin: 10px 0;
+        }
+
+        /* Estilos específicos para ejemplos */
+        .etiqueta-ejemplo {
+            background-color: #333;
+            color: white;
+            padding: 8px 15px;
+            font-size: 14px;
+            font-weight: bold;
+            margin-bottom: 15px;
+            display: inline-block;
+            border-radius: 4px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Display: inline vs block vs inline-block</h1>
+
+    <div class="container">
+        <h2>1. display: inline (como &lt;span&gt;)</h2>
+        <div class="contenedor-demo">
+            <p class="texto-normal">Texto antes</p>
+            <span class="elemento inline">INLINE 1</span>
+            <span class="elemento inline">INLINE 2</span>
+            <span class="elemento inline">INLINE 3</span>
+            <p class="texto-normal">Texto después</p>
+        </div>
+        <div style="background-color: #fff3cd; padding: 10px; margin-top: 10px; border-radius: 4px;">
+            <strong>Características:</strong><br>
+            ✅ Se coloca en la misma línea<br>
+            ❌ NO respeta width/height<br>
+            ❌ NO acepta margin-top/bottom<br>
+            ✅ Acepta padding-left/right<br>
+            ✅ Se comporta como texto
+        </div>
+    </div>
+
+    <div class="container">
+        <h2>2. display: block (como &lt;div&gt;)</h2>
+        <div class="contenedor-demo">
+            <p class="texto-normal">Texto antes</p>
+            <div class="elemento block">BLOCK 1</div>
+            <div class="elemento block">BLOCK 2</div>
+            <div class="elemento block">BLOCK 3</div>
+            <p class="texto-normal">Texto después</p>
+        </div>
+        <div style="background-color: #d4edda; padding: 10px; margin-top: 10px; border-radius: 4px;">
+            <strong>Características:</strong><br>
+            ✅ Respeta width/height<br>
+            ✅ Acepta todos los margins/paddings<br>
+            ❌ Siempre empieza en nueva línea<br>
+            ❌ Ocupa todo el ancho disponible<br>
+            ✅ Se puede centrar con margin: auto
+        </div>
+    </div>
+
+    <div class="container">
+        <h2>3. display: inline-block (¡LO MEJOR DE AMBOS!)</h2>
+        <div class="contenedor-demo">
+            <p class="texto-normal">Texto antes</p>
+            <span class="elemento inline-block">INLINE-BLOCK 1</span>
+            <span class="elemento inline-block">INLINE-BLOCK 2</span>
+            <span class="elemento inline-block">INLINE-BLOCK 3</span>
+            <p class="texto-normal">Texto después</p>
+        </div>
+        <div style="background-color: #d1ecf1; padding: 10px; margin-top: 10px; border-radius: 4px;">
+            <strong>Características:</strong><br>
+            ✅ Se coloca en la misma línea (como inline)<br>
+            ✅ Respeta width/height (como block)<br>
+            ✅ Acepta todos los margins/paddings (como block)<br>
+            ✅ Se puede usar para layouts horizontales<br>
+            ✅ Perfecto para botones, etiquetas, elementos navegación
+        </div>
+    </div>
+</body>
+</html>

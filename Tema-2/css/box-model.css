@@ -1,0 +1,185 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    padding: 20px;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 30px;
+    color: #333;
+}
+
+/* EJEMPLO 1: Básico - Cada parte con color diferente */
+.ejemplo-basico {
+    /* CONTENIDO */
+    width: 200px;
+    height: 80px;
+    background-color: #FFE4E1; /* Rosa claro para content + padding */
+    color: #8B0000; /* Texto rojo oscuro */
+    
+    /* PADDING - Se ve con el background-color */
+    padding: 25px;
+    
+    /* BORDER - Línea visible */
+    border: 8px solid #FF6B6B; /* Borde rojo */
+    
+    /* MARGIN - Espacio exterior (transparente) */
+    margin: 30px auto; /* Los 30px son margin-top y margin-bottom, el auto para right y left*/
+    
+    /* Centrar texto */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+}
+
+/* EJEMPLO 2: Valores diferentes en cada lado */
+.ejemplo-avanzado {
+    width: 300px;
+    height: 100px;
+    background-color: #E6F3FF; /* Azul claro */
+    color: #003366;
+    
+    /* PADDING diferente en cada lado */
+    padding-top: 15px;
+    padding-right: 30px;
+    padding-bottom: 25px;
+    padding-left: 40px;
+    
+    /* BORDER diferente en cada lado */
+    border-top: 3px solid #FF9500;    /* Naranja */
+    border-right: 6px dashed #9500FF;  /* Morado punteado */
+    border-bottom: 4px dotted #00FF95; /* Verde punteado */
+    border-left: 8px double #FF0095;   /* Rosa doble */
+    
+    /* MARGIN diferente en cada lado */
+    margin-top: 20px;
+    margin-right: 50px;
+    margin-bottom: 35px;
+    margin-left: 80px;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 14px;
+    text-align: center;
+}
+
+/* EJEMPLO 3: Diferentes estilos de borde */
+.ejemplo-bordes {
+    width: 250px;
+    height: 60px;
+    background-color: #F0FFF0; /* Verde muy claro */
+    color: #006400;
+    
+    padding: 20px;
+    
+    /* Borde con múltiples estilos */
+    border: 5px ridge #32CD32; /* Borde en relieve verde */
+    
+    margin: 25px auto;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+}
+
+/* EJEMPLO 4: Centrado con margin auto */
+.ejemplo-centrado {
+    width: 180px;
+    height: 70px;
+    background-color: #FFF8DC; /* Amarillo cremoso */
+    color: #8B4513;
+    
+    padding: 15px;
+    border: 4px solid #DAA520; /* Borde dorado */
+    
+    /* Centrar horizontalmente */
+    margin: 40px auto;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+}
+
+/* EJEMPLO 5: Comparación lado a lado */
+.comparacion {
+    display: flex;
+    gap: 50px; /* Espacio entre elementos */
+    justify-content: center;
+    margin-top: 40px;
+}
+
+.sin-padding {
+    width: 150px;
+    height: 60px;
+    background-color: #FFB6C1; /* Rosa */
+    border: 3px solid #DC143C;
+    margin: 20px;
+    
+    /* SIN padding - el texto toca el borde */
+    padding: 0;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 12px;
+}
+
+.con-padding {
+    width: 150px;
+    height: 60px;
+    background-color: #98FB98; /* Verde claro */
+    border: 3px solid #228B22;
+    margin: 20px;
+    
+    /* CON padding - espacio alrededor del texto */
+    padding: 15px;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 12px;
+}
+
+/* Etiquetas explicativas */
+.ejemplo-basico::before {
+    content: "EJEMPLO 1: Básico";
+    position: absolute;
+    top: -25px;
+    left: 0;
+    font-size: 12px;
+    font-weight: bold;
+    color: #666;
+}
+
+.ejemplo-avanzado::before {
+    content: "EJEMPLO 2: Valores diferentes";
+    position: absolute;
+    top: -25px;
+    left: 0;
+    font-size: 12px;
+    font-weight: bold;
+    color: #666;
+}
+
+/* Hacer elementos relativos para las etiquetas */
+.ejemplo-basico,
+.ejemplo-avanzado {
+    position: relative;
+}

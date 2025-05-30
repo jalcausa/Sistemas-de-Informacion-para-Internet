@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Box Model - Diferenciando Padding</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f5f5f5;
+            padding: 20px;
+            margin: 0;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+        }
+
+        h1 {
+            text-align: center;
+            margin-bottom: 40px;
+            color: #333;
+        }
+
+        .ejemplo {
+            margin-bottom: 60px; /* Más espacio entre ejemplos */
+        }
+
+        .etiqueta {
+            background-color: #333;
+            color: white;
+            padding: 8px 15px;
+            font-size: 14px;
+            font-weight: bold;
+            margin-bottom: 20px; /* Separación de la caja */
+            display: inline-block;
+            border-radius: 4px;
+        }
+
+        /* EJEMPLO 1: Fondo diferente para contenido y padding */
+        .ejemplo-diferenciado {
+            width: 200px;
+            height: 80px;
+            
+            /* Fondo solo para el contenido */
+            background-color: #FFE4E1; /* Rosa claro */
+            
+            /* Padding con un truco visual */
+            padding: 25px;
+            
+            border: 8px solid #FF6B6B;
+            margin: 30px auto;
+            
+            /* Crear efecto visual para diferenciar */
+            box-shadow: inset 0 0 0 25px #FFB6C1; /* Sombra interna más oscura para simular padding */
+            
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: bold;
+            color: #8B0000;
+        }
+
+        /* EJEMPLO 2: Con imagen de fondo para ver padding */
+        .ejemplo-con-imagen {
+            width: 200px;
+            height: 80px;
+            
+            /* Imagen de fondo que se repite - se verá en content + padding */
+            background-image: repeating-linear-gradient(
+                45deg,
+                #FFE4E1,
+                #FFE4E1 10px,
+                #FFB6C1 10px,
+                #FFB6C1 20px
+            );
+            
+            padding: 25px;
+            border: 8px solid #FF6B6B;
+            margin: 30px auto;
+            
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: bold;
+            color: #8B0000;
+        }
+
+        /* EJEMPLO 3: Con borde interno para mostrar el contenido */
+        .ejemplo-borde-interno {
+            width: 200px;
+            height: 80px;
+            
+            background-color: #FFE4E1; /* Todo el fondo rosa */
+            padding: 25px;
+            border: 8px solid #FF6B6B;
+            margin: 30px auto;
+            
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: bold;
+            color: #8B0000;
+            
+            /* Borde interno para marcar donde termina el padding */
+            box-shadow: inset 0 0 0 2px #8B0000;
+        }
+
+        /* EJEMPLO 4: Dos elementos para comparar */
+        .comparacion {
+            display: flex;
+            gap: 40px;
+            justify-content: center;
+            margin-top: 30px;
+        }
+
+        .sin-padding {
+            width: 200px;
+            height: 80px;
+            background-color: #E6F3FF;
+            border: 8px solid #4169E1;
+            padding: 0; /* SIN PADDING */
+            
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: bold;
+            color: #000080;
+        }
+
+        .con-padding {
+            width: 200px;
+            height: 80px;
+            background-color: #E6F3FF;
+            border: 8px solid #4169E1;
+            padding: 25px; /* CON PADDING */
+            
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: bold;
+            color: #000080;
+        }
+
+        /* EJEMPLO 5: Usando outline para mostrar el área de contenido */
+        .ejemplo-outline {
+            width: 200px;
+            height: 80px;
+            
+            background-color: #F0FFF0; /* Verde muy claro para todo */
+            padding: 25px;
+            border: 8px solid #32CD32;
+            margin: 30px auto;
+            
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: bold;
+            color: #006400;
+            
+            /* Outline marca exactamente el área de contenido */
+            outline: 3px dashed #006400;
+            outline-offset: -25px; /* Lo coloca exactamente donde termina el padding */
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Box Model - Diferenciando Contenido y Padding</h1>
+        
+        <div class="ejemplo">
+            <div class="etiqueta">EJEMPLO 1: Sombra interna para simular diferencia</div>
+            <div class="ejemplo-diferenciado">
+                CONTENIDO
+            </div>
+        </div>
+        
+        <div class="ejemplo">
+            <div class="etiqueta">EJEMPLO 2: Patrón de fondo para ver el área total</div>
+            <div class="ejemplo-con-imagen">
+                CONTENIDO
+            </div>
+        </div>
+        
+        <div class="ejemplo">
+            <div class="etiqueta">EJEMPLO 3: Borde interno marca el área de contenido</div>
+            <div class="ejemplo-borde-interno">
+                CONTENIDO
+            </div>
+        </div>
+        
+        <div class="ejemplo">
+            <div class="etiqueta">EJEMPLO 4: Comparación sin padding vs con padding</div>
+            <div class="comparacion">
+                <div>
+                    <p style="text-align: center; margin-bottom: 10px; font-weight: bold;">Sin Padding</p>
+                    <div class="sin-padding">
+                        TEXTO
+                    </div>
+                </div>
+                <div>
+                    <p style="text-align: center; margin-bottom: 10px; font-weight: bold;">Con Padding 25px</p>
+                    <div class="con-padding">
+                        TEXTO
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="ejemplo">
+            <div class="etiqueta">EJEMPLO 5: Outline marca exactamente el área de contenido</div>
+            <div class="ejemplo-outline">
+                CONTENIDO
+            </div>
+        </div>
+    </div>
+</body>
+</html>
