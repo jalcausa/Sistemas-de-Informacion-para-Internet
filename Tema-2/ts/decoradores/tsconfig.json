@@ -1,0 +1,12 @@
+{
+	"compilerOptions": {
+	  "target": "ES2020",
+	  "module": "commonjs",
+	  "experimentalDecorators": true,    // ← OBLIGATORIO
+	  "emitDecoratorMetadata": true,     // ← Para reflection
+	  "strict": true,
+	  "esModuleInterop": true,
+	  "skipLibCheck": true,
+	  "forceConsistentCasingInFileNames": true
+	}
+  }
