@@ -1,0 +1,29 @@
+<h2>{{master}} controls {{heroes.length}} heroes</h2>
+
+<app-hero-child
+  *ngFor="let hero of heroes"
+  [hero]="hero"
+  [master]="master"
+  (messageToParent)="onChildMessage($event)"
+  (statusUpdate)="onStatusUpdate($event)">
+</app-hero-child>
+
+<div class="parent-dashboard" *ngIf="lastMessage || heroStatuses.length > 0">
+  <h3>Command Center Dashboard</h3>
+  
+  <div *ngIf="lastMessage" class="message-panel">
+    <h4>Latest Message:</h4>
+    <p>{{lastMessage}}</p>
+    <small>Received at: {{lastMessageTime | date:'medium'}}</small>
+  </div>
+  
+  <div *ngIf="heroStatuses.length > 0" class="status-panel">
+    <h4>Hero Status Reports:</h4>
+    <ul>
+      <li *ngFor="let status of heroStatuses">
+        <strong>{{status.hero}}:</strong> {{status.status}} 
+        <small>({{status.timestamp | date:'short'}})</small>
+      </li>
+    </ul>
+  </div>
+</div>
